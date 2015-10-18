@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 
 Project("{B494BCB8-B5C4-79A0-802B-E0C51C837926}") = "Barely Survived", "Assembly-CSharp-firstpass.csproj", "{9C4A8C98-435D-2A3D-10C0-EF78EDD7C877}"
 EndProject
+Project("{B494BCB8-B5C4-79A0-802B-E0C51C837926}") = "Barely Survived", "Assembly-CSharp.csproj", "{EEDF4E85-0737-C70C-A40E-06D363A1E1A0}"
+EndProject
 Project("{B494BCB8-B5C4-79A0-802B-E0C51C837926}") = "Barely Survived", "Assembly-CSharp-Editor.csproj", "{22ADE38F-9D57-43B5-E891-1C251E089D62}"
 EndProject
 Global
@@ -15,6 +17,10 @@ Global
 		{9C4A8C98-435D-2A3D-10C0-EF78EDD7C877}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C4A8C98-435D-2A3D-10C0-EF78EDD7C877}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C4A8C98-435D-2A3D-10C0-EF78EDD7C877}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEDF4E85-0737-C70C-A40E-06D363A1E1A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEDF4E85-0737-C70C-A40E-06D363A1E1A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEDF4E85-0737-C70C-A40E-06D363A1E1A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEDF4E85-0737-C70C-A40E-06D363A1E1A0}.Release|Any CPU.Build.0 = Release|Any CPU
 		{22ADE38F-9D57-43B5-E891-1C251E089D62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{22ADE38F-9D57-43B5-E891-1C251E089D62}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{22ADE38F-9D57-43B5-E891-1C251E089D62}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -23,7 +29,7 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
+					GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
@@ -42,4 +48,5 @@ Global
 		$3.inheritsScope = text/plain
 		$3.scope = text/plain
 	EndGlobalSection
+
 EndGlobal
