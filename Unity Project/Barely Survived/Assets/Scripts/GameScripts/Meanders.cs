@@ -5,7 +5,7 @@ public class Meanders : MonoBehaviour {
 
 	public Collider currentRoom;
 
-	public float speed = 1f;
+	public float speed = 2.0f;
 
 	private Vector3 destination;
 	private Vector3 velocity;
@@ -14,12 +14,12 @@ public class Meanders : MonoBehaviour {
 	public float standVsMeanderPercent=0.5f;
 	public float minDelayTime=1.0f;
 	public float maxDelayTime=2.0f;
-	private float nextDecisionTime=0f;
+	private float nextDecisionTime;
 	private State state = State.STANDING;
 
 	// Use this for initialization
 	void Start () {
-	
+		nextDecisionTime = Time.time;	
 	}
 	
 	// Update is called once per frame
