@@ -3,11 +3,16 @@ using System.Collections;
 
 public class Meanders : MonoBehaviour {
 
-	public Collider currentRoom;
-
+	public Room currentRoom;
 	public float speed = 2.0f;
 
-	private Vector3 destination;
+	private Vector3 destination{
+        get {
+            return currentRoom.getAbsoluteSpot(relativeDestination);
+        }
+    }
+
+    private Vector2 relativeDestination;
 	private Vector3 velocity;
 	private Vector3 heading;
 
@@ -39,6 +44,9 @@ public class Meanders : MonoBehaviour {
 			}
 			break;
 		}
+        if (state != State.STANDING) {
+            Move ();
+        }
 	}
 	
 	bool IsAtDestination ()
@@ -48,11 +56,7 @@ public class Meanders : MonoBehaviour {
 	
 	void ChooseMeanderDestination ()
 	{
-		var minX = currentRoom.bounds.min.x;
-		var minZ = currentRoom.bounds.min.z;
-		var maxX = currentRoom.bounds.max.x;
-		var maxZ = currentRoom.bounds.max.z;
-		destination = new Vector3 (Random.Range (minX, maxX), transform.position.y, Random.Range (minZ, maxZ));
+        relativeDestination = currentRoom.getRandomSpot();
 	}
 		
 	float getNextDecisionTime ()
@@ -72,10 +76,11 @@ public class Meanders : MonoBehaviour {
 	
 	void Move ()
 	{
-		if ((transform.position - destination).magnitude < 0.1f) 
+		if ((transform.position - destination).magnitude < 0.1f)
 			return;
 		heading = (destination - transform.position).normalized;
-		transform.forward = heading;
+        transform.LookAt(heading,currentRoom.transform.up);
+        transform.up = currentRoom.transform.up;
 		velocity = heading * speed;
 		transform.position += Time.deltaTime * velocity;
 	}
