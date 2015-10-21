@@ -263,7 +263,7 @@ RectTransform:
   m_RootOrder: 1
   m_AnchorMin: {x: .0500000007, y: 0}
   m_AnchorMax: {x: .100000001, y: .600000024}
-  m_AnchoredPosition: {x: -9.5, y: .5}
+  m_AnchoredPosition: {x: -9.50001907, y: .5}
   m_SizeDelta: {x: -13, y: -9}
   m_Pivot: {x: .5, y: .5}
 --- !u!114 &150869796
@@ -2396,7 +2396,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2020648014}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: -.0268748384, w: .999638855}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
