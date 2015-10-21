@@ -59,6 +59,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 493574}
   - 114: {fileID: 11433290}
+  - 114: {fileID: 11456350}
   m_Layer: 0
   m_Name: Garden
   m_TagString: Untagged
@@ -289,6 +290,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   radius: 4.5
+--- !u!114 &11456350
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 168662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f44aada680b6e2d41a08ae9aa3dfc6bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  foodGrowth: 0
+  foodGrowthRate: 10
+  gardeners: []
 --- !u!136 &13612336
 CapsuleCollider:
   m_ObjectHideFlags: 1
