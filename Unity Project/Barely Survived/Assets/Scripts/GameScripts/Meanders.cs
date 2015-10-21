@@ -82,7 +82,6 @@ public class Meanders : MonoBehaviour {
 		if (pathLeft.magnitude < 0.1f)
 			return;
         transform.LookAt(transform.position + heading,currentRoom.transform.up);
-//        transform.up = currentRoom.transform.up;
 		velocity = heading * speed;
 		transform.position += Time.deltaTime * velocity;
         transform.position = currentRoom.onTheGround(transform.position);

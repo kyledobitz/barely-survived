@@ -2786,14 +2786,21 @@
         <module-layer name="Editor">
           <extension id="unity3d-child" />
           <extension id="unity3d-csharp-child" unsafe-code="false" language-version-module-name="" language-version-name="" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/GameManager.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/HealthBar.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Meanders.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Meanders.cs.meta" />
-          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/NewBehaviourScript.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/PersonHealth.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/RotatingFrame.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/RotatingFrame.cs.meta" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/RoundRoom.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/BridgeRoom.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/FoodEngine.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/FuelEngine.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/GardenRoom.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/LifeSupportEngine.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/LifeSupportRoom.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/ShipMetrics.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GenericScripts/Sprite.cs" />
           <orderEntry type="sourceFolder" />
           <orderEntry type="module" module-name="Assembly-UnityScript-firstpass" />
@@ -2812,14 +2819,21 @@
         <module-layer name="Linux (32 bit)">
           <extension id="unity3d-child" />
           <extension id="unity3d-csharp-child" unsafe-code="false" language-version-module-name="" language-version-name="" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/GameManager.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/HealthBar.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Meanders.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Meanders.cs.meta" />
-          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/NewBehaviourScript.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/PersonHealth.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/RotatingFrame.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/RotatingFrame.cs.meta" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/RoundRoom.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/BridgeRoom.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/FoodEngine.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/FuelEngine.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/GardenRoom.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/LifeSupportEngine.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/LifeSupportRoom.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/ShipMetrics.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GenericScripts/Sprite.cs" />
           <orderEntry type="sourceFolder" />
           <orderEntry type="module" module-name="Assembly-UnityScript-firstpass" />
@@ -2838,14 +2852,21 @@
         <module-layer name="Linux (64 bit)">
           <extension id="unity3d-child" />
           <extension id="unity3d-csharp-child" unsafe-code="false" language-version-module-name="" language-version-name="" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/GameManager.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/HealthBar.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Meanders.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Meanders.cs.meta" />
-          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/NewBehaviourScript.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/PersonHealth.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/RotatingFrame.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/RotatingFrame.cs.meta" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/RoundRoom.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/BridgeRoom.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/FoodEngine.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/FuelEngine.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/GardenRoom.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/LifeSupportEngine.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/LifeSupportRoom.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/ShipMetrics.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GenericScripts/Sprite.cs" />
           <orderEntry type="sourceFolder" />
           <orderEntry type="module" module-name="Assembly-UnityScript-firstpass" />
@@ -2864,14 +2885,21 @@
         <module-layer name="Linux (any)">
           <extension id="unity3d-child" />
           <extension id="unity3d-csharp-child" unsafe-code="false" language-version-module-name="" language-version-name="" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/GameManager.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/HealthBar.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Meanders.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Meanders.cs.meta" />
-          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/NewBehaviourScript.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/PersonHealth.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/RotatingFrame.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/RotatingFrame.cs.meta" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/RoundRoom.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/BridgeRoom.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/FoodEngine.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/FuelEngine.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/GardenRoom.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/LifeSupportEngine.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/LifeSupportRoom.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/ShipMetrics.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GenericScripts/Sprite.cs" />
           <orderEntry type="sourceFolder" />
           <orderEntry type="module" module-name="Assembly-UnityScript-firstpass" />
@@ -2890,14 +2918,21 @@
         <module-layer name="MacOS (32 bit)">
           <extension id="unity3d-child" />
           <extension id="unity3d-csharp-child" unsafe-code="false" language-version-module-name="" language-version-name="" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/GameManager.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/HealthBar.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Meanders.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Meanders.cs.meta" />
-          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/NewBehaviourScript.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/PersonHealth.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/RotatingFrame.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/RotatingFrame.cs.meta" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/RoundRoom.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/BridgeRoom.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/FoodEngine.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/FuelEngine.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/GardenRoom.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/LifeSupportEngine.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/LifeSupportRoom.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/ShipMetrics.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GenericScripts/Sprite.cs" />
           <orderEntry type="sourceFolder" />
           <orderEntry type="module" module-name="Assembly-UnityScript-firstpass" />
@@ -2916,14 +2951,21 @@
         <module-layer name="MacOS (64 bit)">
           <extension id="unity3d-child" />
           <extension id="unity3d-csharp-child" unsafe-code="false" language-version-module-name="" language-version-name="" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/GameManager.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/HealthBar.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Meanders.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Meanders.cs.meta" />
-          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/NewBehaviourScript.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/PersonHealth.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/RotatingFrame.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/RotatingFrame.cs.meta" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/RoundRoom.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/BridgeRoom.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/FoodEngine.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/FuelEngine.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/GardenRoom.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/LifeSupportEngine.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/LifeSupportRoom.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/ShipMetrics.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GenericScripts/Sprite.cs" />
           <orderEntry type="sourceFolder" />
           <orderEntry type="module" module-name="Assembly-UnityScript-firstpass" />
@@ -2942,14 +2984,21 @@
         <module-layer name="MacOS (any)">
           <extension id="unity3d-child" />
           <extension id="unity3d-csharp-child" unsafe-code="false" language-version-module-name="" language-version-name="" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/GameManager.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/HealthBar.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Meanders.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Meanders.cs.meta" />
-          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/NewBehaviourScript.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/PersonHealth.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/RotatingFrame.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/RotatingFrame.cs.meta" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/RoundRoom.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/BridgeRoom.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/FoodEngine.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/FuelEngine.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/GardenRoom.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/LifeSupportEngine.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/LifeSupportRoom.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/ShipMetrics.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GenericScripts/Sprite.cs" />
           <orderEntry type="sourceFolder" />
           <orderEntry type="module" module-name="Assembly-UnityScript-firstpass" />
@@ -2968,14 +3017,21 @@
         <module-layer name="Windows (32 bit)">
           <extension id="unity3d-child" />
           <extension id="unity3d-csharp-child" unsafe-code="false" language-version-module-name="" language-version-name="" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/GameManager.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/HealthBar.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Meanders.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Meanders.cs.meta" />
-          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/NewBehaviourScript.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/PersonHealth.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/RotatingFrame.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/RotatingFrame.cs.meta" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/RoundRoom.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/BridgeRoom.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/FoodEngine.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/FuelEngine.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/GardenRoom.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/LifeSupportEngine.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/LifeSupportRoom.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/ShipMetrics.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GenericScripts/Sprite.cs" />
           <orderEntry type="sourceFolder" />
           <orderEntry type="module" module-name="Assembly-UnityScript-firstpass" />
@@ -2994,14 +3050,21 @@
         <module-layer name="Windows (64 bit)">
           <extension id="unity3d-child" />
           <extension id="unity3d-csharp-child" unsafe-code="false" language-version-module-name="" language-version-name="" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/GameManager.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/HealthBar.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Meanders.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Meanders.cs.meta" />
-          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/NewBehaviourScript.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/PersonHealth.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/RotatingFrame.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/RotatingFrame.cs.meta" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/RoundRoom.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/BridgeRoom.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/FoodEngine.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/FuelEngine.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/GardenRoom.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/LifeSupportEngine.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/LifeSupportRoom.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/ShipMetrics.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GenericScripts/Sprite.cs" />
           <orderEntry type="sourceFolder" />
           <orderEntry type="module" module-name="Assembly-UnityScript-firstpass" />

@@ -1,8 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class NewBehaviourScript : MonoBehaviour {
+public class FuelEngine : MonoBehaviour {
 
+    public float fuel;
+    public float startingFuel = 100f;
+    
 	// Use this for initialization
 	void Start () {
 	
