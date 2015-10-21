@@ -3,7 +3,7 @@ using System.Collections;
 
 public class Meanders : MonoBehaviour {
 
-	public Room currentRoom;
+	public RoundRoom currentRoom;
 	public float speed = 2.0f;
 
 	private Vector3 destination{
@@ -31,6 +31,7 @@ public class Meanders : MonoBehaviour {
 	void Update () {
 		switch (state) {
 		case State.STANDING:
+
 			if (Time.time > nextDecisionTime) {
 				nextDecisionTime = getNextDecisionTime ();
 				state = DecideNextState ();
@@ -57,6 +58,7 @@ public class Meanders : MonoBehaviour {
 	void ChooseMeanderDestination ()
 	{
         relativeDestination = currentRoom.getRandomSpot();
+        heading = (destination - transform.position).normalized;
 	}
 		
 	float getNextDecisionTime ()
@@ -76,13 +78,14 @@ public class Meanders : MonoBehaviour {
 	
 	void Move ()
 	{
-		if ((transform.position - destination).magnitude < 0.1f)
+        var pathLeft = destination - transform.position;
+		if (pathLeft.magnitude < 0.1f)
 			return;
-		heading = (destination - transform.position).normalized;
-        transform.LookAt(heading,currentRoom.transform.up);
-        transform.up = currentRoom.transform.up;
+        transform.LookAt(transform.position + heading,currentRoom.transform.up);
+//        transform.up = currentRoom.transform.up;
 		velocity = heading * speed;
 		transform.position += Time.deltaTime * velocity;
+        transform.position = currentRoom.onTheGround(transform.position);
 	}
 	
 	public enum State
