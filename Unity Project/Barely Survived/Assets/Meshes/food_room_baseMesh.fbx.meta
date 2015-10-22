@@ -1,0 +1,1544 @@
+fileFormatVersion: 2
+guid: 8ca0ccbfa81050d44ae97a2c9ef48105
+timeCreated: 1445486491
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: chair10
+    100002: chair10 1
+    100004: chair10 2
+    100006: chair10 3
+    100008: chair5
+    100010: chair5 1
+    100012: chair5 2
+    100014: chair5 3
+    100016: chair6
+    100018: chair6 1
+    100020: chair6 2
+    100022: chair6 3
+    100024: chair7
+    100026: chair7 1
+    100028: chair7 2
+    100030: chair7 3
+    100032: chair8
+    100034: chair8 1
+    100036: chair8 2
+    100038: chair8 3
+    100040: chair9
+    100042: chair9 1
+    100044: chair9 2
+    100046: chair9 3
+    100048: door_east
+    100050: door_north
+    100052: door_south
+    100054: door_west
+    100056: //RootNode
+    100058: pCube1
+    100060: pCube10
+    100062: pCube10 1
+    100064: pCube10 2
+    100066: pCube10 3
+    100068: pCube11
+    100070: pCube11 1
+    100072: pCube11 2
+    100074: pCube11 3
+    100076: pCube12
+    100078: pCube12 1
+    100080: pCube12 2
+    100082: pCube12 3
+    100084: pCube6
+    100086: pCube6 1
+    100088: pCube6 2
+    100090: pCube6 3
+    100092: pCube8
+    100094: pCube8 1
+    100096: pCube8 2
+    100098: pCube8 3
+    100100: pCube9
+    100102: pCube9 1
+    100104: pCube9 2
+    100106: pCube9 3
+    100108: pCylinder1
+    100110: pCylinder2
+    100112: plant_dirtContainer
+    100114: plant_small
+    100116: plant_small1
+    100118: plant_small10
+    100120: plant_small11
+    100122: plant_small12
+    100124: plant_small13
+    100126: plant_small14
+    100128: plant_small15
+    100130: plant_small16
+    100132: plant_small17
+    100134: plant_small18
+    100136: plant_small19
+    100138: plant_small2
+    100140: plant_small20
+    100142: plant_small21
+    100144: plant_small22
+    100146: plant_small23
+    100148: plant_small24
+    100150: plant_small25
+    100152: plant_small26
+    100154: plant_small27
+    100156: plant_small28
+    100158: plant_small29
+    100160: plant_small3
+    100162: plant_small30
+    100164: plant_small31
+    100166: plant_small32
+    100168: plant_small33
+    100170: plant_small34
+    100172: plant_small35
+    100174: plant_small36
+    100176: plant_small37
+    100178: plant_small38
+    100180: plant_small39
+    100182: plant_small4
+    100184: plant_small40
+    100186: plant_small41
+    100188: plant_small42
+    100190: plant_small43
+    100192: plant_small44
+    100194: plant_small45
+    100196: plant_small46
+    100198: plant_small47
+    100200: plant_small48
+    100202: plant_small49
+    100204: plant_small5
+    100206: plant_small50
+    100208: plant_small51
+    100210: plant_small52
+    100212: plant_small53
+    100214: plant_small54
+    100216: plant_small55
+    100218: plant_small56
+    100220: plant_small57
+    100222: plant_small58
+    100224: plant_small59
+    100226: plant_small6
+    100228: plant_small60
+    100230: plant_small61
+    100232: plant_small62
+    100234: plant_small63
+    100236: plant_small64
+    100238: plant_small7
+    100240: plant_small8
+    100242: plant_small9
+    100244: plant_table:pCube1
+    100246: plant_table:pCylinder1
+    100248: plant_table:pCylinder2
+    100250: plant_table:plant_dirtContainer
+    100252: plant_table:plant_small
+    100254: plant_table:plant_small1
+    100256: plant_table:plant_small10
+    100258: plant_table:plant_small11
+    100260: plant_table:plant_small12
+    100262: plant_table:plant_small13
+    100264: plant_table:plant_small14
+    100266: plant_table:plant_small15
+    100268: plant_table:plant_small16
+    100270: plant_table:plant_small17
+    100272: plant_table:plant_small18
+    100274: plant_table:plant_small19
+    100276: plant_table:plant_small2
+    100278: plant_table:plant_small20
+    100280: plant_table:plant_small21
+    100282: plant_table:plant_small22
+    100284: plant_table:plant_small23
+    100286: plant_table:plant_small24
+    100288: plant_table:plant_small25
+    100290: plant_table:plant_small26
+    100292: plant_table:plant_small27
+    100294: plant_table:plant_small28
+    100296: plant_table:plant_small29
+    100298: plant_table:plant_small3
+    100300: plant_table:plant_small30
+    100302: plant_table:plant_small31
+    100304: plant_table:plant_small32
+    100306: plant_table:plant_small33
+    100308: plant_table:plant_small34
+    100310: plant_table:plant_small35
+    100312: plant_table:plant_small36
+    100314: plant_table:plant_small37
+    100316: plant_table:plant_small38
+    100318: plant_table:plant_small39
+    100320: plant_table:plant_small4
+    100322: plant_table:plant_small40
+    100324: plant_table:plant_small41
+    100326: plant_table:plant_small42
+    100328: plant_table:plant_small43
+    100330: plant_table:plant_small44
+    100332: plant_table:plant_small45
+    100334: plant_table:plant_small46
+    100336: plant_table:plant_small47
+    100338: plant_table:plant_small48
+    100340: plant_table:plant_small49
+    100342: plant_table:plant_small5
+    100344: plant_table:plant_small50
+    100346: plant_table:plant_small51
+    100348: plant_table:plant_small52
+    100350: plant_table:plant_small53
+    100352: plant_table:plant_small54
+    100354: plant_table:plant_small55
+    100356: plant_table:plant_small56
+    100358: plant_table:plant_small57
+    100360: plant_table:plant_small58
+    100362: plant_table:plant_small59
+    100364: plant_table:plant_small6
+    100366: plant_table:plant_small60
+    100368: plant_table:plant_small61
+    100370: plant_table:plant_small62
+    100372: plant_table:plant_small63
+    100374: plant_table:plant_small64
+    100376: plant_table:plant_small7
+    100378: plant_table:plant_small8
+    100380: plant_table:plant_small9
+    100382: plant_table:plant_tall
+    100384: plant_table:plant_tall1
+    100386: plant_table:plant_tall10
+    100388: plant_table:plant_tall11
+    100390: plant_table:plant_tall12
+    100392: plant_table:plant_tall13
+    100394: plant_table:plant_tall14
+    100396: plant_table:plant_tall15
+    100398: plant_table:plant_tall16
+    100400: plant_table:plant_tall17
+    100402: plant_table:plant_tall18
+    100404: plant_table:plant_tall19
+    100406: plant_table:plant_tall20
+    100408: plant_table:plant_tall21
+    100410: plant_table:plant_tall22
+    100412: plant_table:plant_tall23
+    100414: plant_table:plant_tall24
+    100416: plant_table:plant_tall25
+    100418: plant_table:plant_tall26
+    100420: plant_table:plant_tall27
+    100422: plant_table:plant_tall28
+    100424: plant_table:plant_tall29
+    100426: plant_table:plant_tall30
+    100428: plant_table:plant_tall31
+    100430: plant_table:plant_tall32
+    100432: plant_table:plant_tall33
+    100434: plant_table:plant_tall34
+    100436: plant_table:plant_tall35
+    100438: plant_table:plant_tall39
+    100440: plant_table:plant_tall4
+    100442: plant_table:plant_tall40
+    100444: plant_table:plant_tall41
+    100446: plant_table:plant_tall42
+    100448: plant_table:plant_tall43
+    100450: plant_table:plant_tall44
+    100452: plant_table:plant_tall45
+    100454: plant_table:plant_tall46
+    100456: plant_table:plant_tall47
+    100458: plant_table:plant_tall48
+    100460: plant_table:plant_tall49
+    100462: plant_table:plant_tall5
+    100464: plant_table:plant_tall50
+    100466: plant_table:plant_tall51
+    100468: plant_table:plant_tall52
+    100470: plant_table:plant_tall53
+    100472: plant_table:plant_tall6
+    100474: plant_table:plant_tall7
+    100476: plant_table:plant_tall8
+    100478: plant_table:plant_tall9
+    100480: plant_table:PlantContainer
+    100482: plant_table:Plants
+    100484: plant_table:Small_Plants
+    100486: plant_table:Tall_Plants
+    100488: plant_tall
+    100490: plant_tall1
+    100492: plant_tall10
+    100494: plant_tall11
+    100496: plant_tall12
+    100498: plant_tall13
+    100500: plant_tall14
+    100502: plant_tall15
+    100504: plant_tall16
+    100506: plant_tall17
+    100508: plant_tall18
+    100510: plant_tall19
+    100512: plant_tall20
+    100514: plant_tall21
+    100516: plant_tall22
+    100518: plant_tall23
+    100520: plant_tall24
+    100522: plant_tall25
+    100524: plant_tall26
+    100526: plant_tall27
+    100528: plant_tall28
+    100530: plant_tall29
+    100532: plant_tall30
+    100534: plant_tall31
+    100536: plant_tall32
+    100538: plant_tall33
+    100540: plant_tall34
+    100542: plant_tall35
+    100544: plant_tall39
+    100546: plant_tall4
+    100548: plant_tall40
+    100550: plant_tall41
+    100552: plant_tall42
+    100554: plant_tall43
+    100556: plant_tall44
+    100558: plant_tall45
+    100560: plant_tall46
+    100562: plant_tall47
+    100564: plant_tall48
+    100566: plant_tall49
+    100568: plant_tall5
+    100570: plant_tall50
+    100572: plant_tall51
+    100574: plant_tall52
+    100576: plant_tall53
+    100578: plant_tall6
+    100580: plant_tall7
+    100582: plant_tall8
+    100584: plant_tall9
+    100586: room_base
+    100588: table
+    100590: table2
+    100592: table3
+    100594: table4
+    400000: chair10
+    400002: chair10 1
+    400004: chair10 2
+    400006: chair10 3
+    400008: chair5
+    400010: chair5 1
+    400012: chair5 2
+    400014: chair5 3
+    400016: chair6
+    400018: chair6 1
+    400020: chair6 2
+    400022: chair6 3
+    400024: chair7
+    400026: chair7 1
+    400028: chair7 2
+    400030: chair7 3
+    400032: chair8
+    400034: chair8 1
+    400036: chair8 2
+    400038: chair8 3
+    400040: chair9
+    400042: chair9 1
+    400044: chair9 2
+    400046: chair9 3
+    400048: door_east
+    400050: door_north
+    400052: door_south
+    400054: door_west
+    400056: //RootNode
+    400058: pCube1
+    400060: pCube10
+    400062: pCube10 1
+    400064: pCube10 2
+    400066: pCube10 3
+    400068: pCube11
+    400070: pCube11 1
+    400072: pCube11 2
+    400074: pCube11 3
+    400076: pCube12
+    400078: pCube12 1
+    400080: pCube12 2
+    400082: pCube12 3
+    400084: pCube6
+    400086: pCube6 1
+    400088: pCube6 2
+    400090: pCube6 3
+    400092: pCube8
+    400094: pCube8 1
+    400096: pCube8 2
+    400098: pCube8 3
+    400100: pCube9
+    400102: pCube9 1
+    400104: pCube9 2
+    400106: pCube9 3
+    400108: pCylinder1
+    400110: pCylinder2
+    400112: plant_dirtContainer
+    400114: plant_small
+    400116: plant_small1
+    400118: plant_small10
+    400120: plant_small11
+    400122: plant_small12
+    400124: plant_small13
+    400126: plant_small14
+    400128: plant_small15
+    400130: plant_small16
+    400132: plant_small17
+    400134: plant_small18
+    400136: plant_small19
+    400138: plant_small2
+    400140: plant_small20
+    400142: plant_small21
+    400144: plant_small22
+    400146: plant_small23
+    400148: plant_small24
+    400150: plant_small25
+    400152: plant_small26
+    400154: plant_small27
+    400156: plant_small28
+    400158: plant_small29
+    400160: plant_small3
+    400162: plant_small30
+    400164: plant_small31
+    400166: plant_small32
+    400168: plant_small33
+    400170: plant_small34
+    400172: plant_small35
+    400174: plant_small36
+    400176: plant_small37
+    400178: plant_small38
+    400180: plant_small39
+    400182: plant_small4
+    400184: plant_small40
+    400186: plant_small41
+    400188: plant_small42
+    400190: plant_small43
+    400192: plant_small44
+    400194: plant_small45
+    400196: plant_small46
+    400198: plant_small47
+    400200: plant_small48
+    400202: plant_small49
+    400204: plant_small5
+    400206: plant_small50
+    400208: plant_small51
+    400210: plant_small52
+    400212: plant_small53
+    400214: plant_small54
+    400216: plant_small55
+    400218: plant_small56
+    400220: plant_small57
+    400222: plant_small58
+    400224: plant_small59
+    400226: plant_small6
+    400228: plant_small60
+    400230: plant_small61
+    400232: plant_small62
+    400234: plant_small63
+    400236: plant_small64
+    400238: plant_small7
+    400240: plant_small8
+    400242: plant_small9
+    400244: plant_table:pCube1
+    400246: plant_table:pCylinder1
+    400248: plant_table:pCylinder2
+    400250: plant_table:plant_dirtContainer
+    400252: plant_table:plant_small
+    400254: plant_table:plant_small1
+    400256: plant_table:plant_small10
+    400258: plant_table:plant_small11
+    400260: plant_table:plant_small12
+    400262: plant_table:plant_small13
+    400264: plant_table:plant_small14
+    400266: plant_table:plant_small15
+    400268: plant_table:plant_small16
+    400270: plant_table:plant_small17
+    400272: plant_table:plant_small18
+    400274: plant_table:plant_small19
+    400276: plant_table:plant_small2
+    400278: plant_table:plant_small20
+    400280: plant_table:plant_small21
+    400282: plant_table:plant_small22
+    400284: plant_table:plant_small23
+    400286: plant_table:plant_small24
+    400288: plant_table:plant_small25
+    400290: plant_table:plant_small26
+    400292: plant_table:plant_small27
+    400294: plant_table:plant_small28
+    400296: plant_table:plant_small29
+    400298: plant_table:plant_small3
+    400300: plant_table:plant_small30
+    400302: plant_table:plant_small31
+    400304: plant_table:plant_small32
+    400306: plant_table:plant_small33
+    400308: plant_table:plant_small34
+    400310: plant_table:plant_small35
+    400312: plant_table:plant_small36
+    400314: plant_table:plant_small37
+    400316: plant_table:plant_small38
+    400318: plant_table:plant_small39
+    400320: plant_table:plant_small4
+    400322: plant_table:plant_small40
+    400324: plant_table:plant_small41
+    400326: plant_table:plant_small42
+    400328: plant_table:plant_small43
+    400330: plant_table:plant_small44
+    400332: plant_table:plant_small45
+    400334: plant_table:plant_small46
+    400336: plant_table:plant_small47
+    400338: plant_table:plant_small48
+    400340: plant_table:plant_small49
+    400342: plant_table:plant_small5
+    400344: plant_table:plant_small50
+    400346: plant_table:plant_small51
+    400348: plant_table:plant_small52
+    400350: plant_table:plant_small53
+    400352: plant_table:plant_small54
+    400354: plant_table:plant_small55
+    400356: plant_table:plant_small56
+    400358: plant_table:plant_small57
+    400360: plant_table:plant_small58
+    400362: plant_table:plant_small59
+    400364: plant_table:plant_small6
+    400366: plant_table:plant_small60
+    400368: plant_table:plant_small61
+    400370: plant_table:plant_small62
+    400372: plant_table:plant_small63
+    400374: plant_table:plant_small64
+    400376: plant_table:plant_small7
+    400378: plant_table:plant_small8
+    400380: plant_table:plant_small9
+    400382: plant_table:plant_tall
+    400384: plant_table:plant_tall1
+    400386: plant_table:plant_tall10
+    400388: plant_table:plant_tall11
+    400390: plant_table:plant_tall12
+    400392: plant_table:plant_tall13
+    400394: plant_table:plant_tall14
+    400396: plant_table:plant_tall15
+    400398: plant_table:plant_tall16
+    400400: plant_table:plant_tall17
+    400402: plant_table:plant_tall18
+    400404: plant_table:plant_tall19
+    400406: plant_table:plant_tall20
+    400408: plant_table:plant_tall21
+    400410: plant_table:plant_tall22
+    400412: plant_table:plant_tall23
+    400414: plant_table:plant_tall24
+    400416: plant_table:plant_tall25
+    400418: plant_table:plant_tall26
+    400420: plant_table:plant_tall27
+    400422: plant_table:plant_tall28
+    400424: plant_table:plant_tall29
+    400426: plant_table:plant_tall30
+    400428: plant_table:plant_tall31
+    400430: plant_table:plant_tall32
+    400432: plant_table:plant_tall33
+    400434: plant_table:plant_tall34
+    400436: plant_table:plant_tall35
+    400438: plant_table:plant_tall39
+    400440: plant_table:plant_tall4
+    400442: plant_table:plant_tall40
+    400444: plant_table:plant_tall41
+    400446: plant_table:plant_tall42
+    400448: plant_table:plant_tall43
+    400450: plant_table:plant_tall44
+    400452: plant_table:plant_tall45
+    400454: plant_table:plant_tall46
+    400456: plant_table:plant_tall47
+    400458: plant_table:plant_tall48
+    400460: plant_table:plant_tall49
+    400462: plant_table:plant_tall5
+    400464: plant_table:plant_tall50
+    400466: plant_table:plant_tall51
+    400468: plant_table:plant_tall52
+    400470: plant_table:plant_tall53
+    400472: plant_table:plant_tall6
+    400474: plant_table:plant_tall7
+    400476: plant_table:plant_tall8
+    400478: plant_table:plant_tall9
+    400480: plant_table:PlantContainer
+    400482: plant_table:Plants
+    400484: plant_table:Small_Plants
+    400486: plant_table:Tall_Plants
+    400488: plant_tall
+    400490: plant_tall1
+    400492: plant_tall10
+    400494: plant_tall11
+    400496: plant_tall12
+    400498: plant_tall13
+    400500: plant_tall14
+    400502: plant_tall15
+    400504: plant_tall16
+    400506: plant_tall17
+    400508: plant_tall18
+    400510: plant_tall19
+    400512: plant_tall20
+    400514: plant_tall21
+    400516: plant_tall22
+    400518: plant_tall23
+    400520: plant_tall24
+    400522: plant_tall25
+    400524: plant_tall26
+    400526: plant_tall27
+    400528: plant_tall28
+    400530: plant_tall29
+    400532: plant_tall30
+    400534: plant_tall31
+    400536: plant_tall32
+    400538: plant_tall33
+    400540: plant_tall34
+    400542: plant_tall35
+    400544: plant_tall39
+    400546: plant_tall4
+    400548: plant_tall40
+    400550: plant_tall41
+    400552: plant_tall42
+    400554: plant_tall43
+    400556: plant_tall44
+    400558: plant_tall45
+    400560: plant_tall46
+    400562: plant_tall47
+    400564: plant_tall48
+    400566: plant_tall49
+    400568: plant_tall5
+    400570: plant_tall50
+    400572: plant_tall51
+    400574: plant_tall52
+    400576: plant_tall53
+    400578: plant_tall6
+    400580: plant_tall7
+    400582: plant_tall8
+    400584: plant_tall9
+    400586: room_base
+    400588: table
+    400590: table2
+    400592: table3
+    400594: table4
+    2300000: chair10
+    2300002: chair10 1
+    2300004: chair10 2
+    2300006: chair10 3
+    2300008: chair5
+    2300010: chair5 1
+    2300012: chair5 2
+    2300014: chair5 3
+    2300016: chair6
+    2300018: chair6 1
+    2300020: chair6 2
+    2300022: chair6 3
+    2300024: chair7
+    2300026: chair7 1
+    2300028: chair7 2
+    2300030: chair7 3
+    2300032: chair8
+    2300034: chair8 1
+    2300036: chair8 2
+    2300038: chair8 3
+    2300040: chair9
+    2300042: chair9 1
+    2300044: chair9 2
+    2300046: chair9 3
+    2300048: pCube1
+    2300050: pCube10
+    2300052: pCube10 1
+    2300054: pCube10 2
+    2300056: pCube10 3
+    2300058: pCube11
+    2300060: pCube11 1
+    2300062: pCube11 2
+    2300064: pCube11 3
+    2300066: pCube12
+    2300068: pCube12 1
+    2300070: pCube12 2
+    2300072: pCube12 3
+    2300074: pCube6
+    2300076: pCube6 1
+    2300078: pCube6 2
+    2300080: pCube6 3
+    2300082: pCube8
+    2300084: pCube8 1
+    2300086: pCube8 2
+    2300088: pCube8 3
+    2300090: pCube9
+    2300092: pCube9 1
+    2300094: pCube9 2
+    2300096: pCube9 3
+    2300098: pCylinder1
+    2300100: pCylinder2
+    2300102: plant_dirtContainer
+    2300104: plant_small
+    2300106: plant_small1
+    2300108: plant_small10
+    2300110: plant_small11
+    2300112: plant_small12
+    2300114: plant_small13
+    2300116: plant_small14
+    2300118: plant_small15
+    2300120: plant_small16
+    2300122: plant_small17
+    2300124: plant_small18
+    2300126: plant_small19
+    2300128: plant_small2
+    2300130: plant_small20
+    2300132: plant_small21
+    2300134: plant_small22
+    2300136: plant_small23
+    2300138: plant_small24
+    2300140: plant_small25
+    2300142: plant_small26
+    2300144: plant_small27
+    2300146: plant_small28
+    2300148: plant_small29
+    2300150: plant_small3
+    2300152: plant_small30
+    2300154: plant_small31
+    2300156: plant_small32
+    2300158: plant_small33
+    2300160: plant_small34
+    2300162: plant_small35
+    2300164: plant_small36
+    2300166: plant_small37
+    2300168: plant_small38
+    2300170: plant_small39
+    2300172: plant_small4
+    2300174: plant_small40
+    2300176: plant_small41
+    2300178: plant_small42
+    2300180: plant_small43
+    2300182: plant_small44
+    2300184: plant_small45
+    2300186: plant_small46
+    2300188: plant_small47
+    2300190: plant_small48
+    2300192: plant_small49
+    2300194: plant_small5
+    2300196: plant_small50
+    2300198: plant_small51
+    2300200: plant_small52
+    2300202: plant_small53
+    2300204: plant_small54
+    2300206: plant_small55
+    2300208: plant_small56
+    2300210: plant_small57
+    2300212: plant_small58
+    2300214: plant_small59
+    2300216: plant_small6
+    2300218: plant_small60
+    2300220: plant_small61
+    2300222: plant_small62
+    2300224: plant_small63
+    2300226: plant_small64
+    2300228: plant_small7
+    2300230: plant_small8
+    2300232: plant_small9
+    2300234: plant_table:pCube1
+    2300236: plant_table:pCylinder1
+    2300238: plant_table:pCylinder2
+    2300240: plant_table:plant_dirtContainer
+    2300242: plant_table:plant_small
+    2300244: plant_table:plant_small1
+    2300246: plant_table:plant_small10
+    2300248: plant_table:plant_small11
+    2300250: plant_table:plant_small12
+    2300252: plant_table:plant_small13
+    2300254: plant_table:plant_small14
+    2300256: plant_table:plant_small15
+    2300258: plant_table:plant_small16
+    2300260: plant_table:plant_small17
+    2300262: plant_table:plant_small18
+    2300264: plant_table:plant_small19
+    2300266: plant_table:plant_small2
+    2300268: plant_table:plant_small20
+    2300270: plant_table:plant_small21
+    2300272: plant_table:plant_small22
+    2300274: plant_table:plant_small23
+    2300276: plant_table:plant_small24
+    2300278: plant_table:plant_small25
+    2300280: plant_table:plant_small26
+    2300282: plant_table:plant_small27
+    2300284: plant_table:plant_small28
+    2300286: plant_table:plant_small29
+    2300288: plant_table:plant_small3
+    2300290: plant_table:plant_small30
+    2300292: plant_table:plant_small31
+    2300294: plant_table:plant_small32
+    2300296: plant_table:plant_small33
+    2300298: plant_table:plant_small34
+    2300300: plant_table:plant_small35
+    2300302: plant_table:plant_small36
+    2300304: plant_table:plant_small37
+    2300306: plant_table:plant_small38
+    2300308: plant_table:plant_small39
+    2300310: plant_table:plant_small4
+    2300312: plant_table:plant_small40
+    2300314: plant_table:plant_small41
+    2300316: plant_table:plant_small42
+    2300318: plant_table:plant_small43
+    2300320: plant_table:plant_small44
+    2300322: plant_table:plant_small45
+    2300324: plant_table:plant_small46
+    2300326: plant_table:plant_small47
+    2300328: plant_table:plant_small48
+    2300330: plant_table:plant_small49
+    2300332: plant_table:plant_small5
+    2300334: plant_table:plant_small50
+    2300336: plant_table:plant_small51
+    2300338: plant_table:plant_small52
+    2300340: plant_table:plant_small53
+    2300342: plant_table:plant_small54
+    2300344: plant_table:plant_small55
+    2300346: plant_table:plant_small56
+    2300348: plant_table:plant_small57
+    2300350: plant_table:plant_small58
+    2300352: plant_table:plant_small59
+    2300354: plant_table:plant_small6
+    2300356: plant_table:plant_small60
+    2300358: plant_table:plant_small61
+    2300360: plant_table:plant_small62
+    2300362: plant_table:plant_small63
+    2300364: plant_table:plant_small64
+    2300366: plant_table:plant_small7
+    2300368: plant_table:plant_small8
+    2300370: plant_table:plant_small9
+    2300372: plant_table:plant_tall
+    2300374: plant_table:plant_tall1
+    2300376: plant_table:plant_tall10
+    2300378: plant_table:plant_tall11
+    2300380: plant_table:plant_tall12
+    2300382: plant_table:plant_tall13
+    2300384: plant_table:plant_tall14
+    2300386: plant_table:plant_tall15
+    2300388: plant_table:plant_tall16
+    2300390: plant_table:plant_tall17
+    2300392: plant_table:plant_tall18
+    2300394: plant_table:plant_tall19
+    2300396: plant_table:plant_tall20
+    2300398: plant_table:plant_tall21
+    2300400: plant_table:plant_tall22
+    2300402: plant_table:plant_tall23
+    2300404: plant_table:plant_tall24
+    2300406: plant_table:plant_tall25
+    2300408: plant_table:plant_tall26
+    2300410: plant_table:plant_tall27
+    2300412: plant_table:plant_tall28
+    2300414: plant_table:plant_tall29
+    2300416: plant_table:plant_tall30
+    2300418: plant_table:plant_tall31
+    2300420: plant_table:plant_tall32
+    2300422: plant_table:plant_tall33
+    2300424: plant_table:plant_tall34
+    2300426: plant_table:plant_tall35
+    2300428: plant_table:plant_tall39
+    2300430: plant_table:plant_tall4
+    2300432: plant_table:plant_tall40
+    2300434: plant_table:plant_tall41
+    2300436: plant_table:plant_tall42
+    2300438: plant_table:plant_tall43
+    2300440: plant_table:plant_tall44
+    2300442: plant_table:plant_tall45
+    2300444: plant_table:plant_tall46
+    2300446: plant_table:plant_tall47
+    2300448: plant_table:plant_tall48
+    2300450: plant_table:plant_tall49
+    2300452: plant_table:plant_tall5
+    2300454: plant_table:plant_tall50
+    2300456: plant_table:plant_tall51
+    2300458: plant_table:plant_tall52
+    2300460: plant_table:plant_tall53
+    2300462: plant_table:plant_tall6
+    2300464: plant_table:plant_tall7
+    2300466: plant_table:plant_tall8
+    2300468: plant_table:plant_tall9
+    2300470: plant_tall
+    2300472: plant_tall1
+    2300474: plant_tall10
+    2300476: plant_tall11
+    2300478: plant_tall12
+    2300480: plant_tall13
+    2300482: plant_tall14
+    2300484: plant_tall15
+    2300486: plant_tall16
+    2300488: plant_tall17
+    2300490: plant_tall18
+    2300492: plant_tall19
+    2300494: plant_tall20
+    2300496: plant_tall21
+    2300498: plant_tall22
+    2300500: plant_tall23
+    2300502: plant_tall24
+    2300504: plant_tall25
+    2300506: plant_tall26
+    2300508: plant_tall27
+    2300510: plant_tall28
+    2300512: plant_tall29
+    2300514: plant_tall30
+    2300516: plant_tall31
+    2300518: plant_tall32
+    2300520: plant_tall33
+    2300522: plant_tall34
+    2300524: plant_tall35
+    2300526: plant_tall39
+    2300528: plant_tall4
+    2300530: plant_tall40
+    2300532: plant_tall41
+    2300534: plant_tall42
+    2300536: plant_tall43
+    2300538: plant_tall44
+    2300540: plant_tall45
+    2300542: plant_tall46
+    2300544: plant_tall47
+    2300546: plant_tall48
+    2300548: plant_tall49
+    2300550: plant_tall5
+    2300552: plant_tall50
+    2300554: plant_tall51
+    2300556: plant_tall52
+    2300558: plant_tall53
+    2300560: plant_tall6
+    2300562: plant_tall7
+    2300564: plant_tall8
+    2300566: plant_tall9
+    2300568: room_base
+    2300570: table
+    2300572: table2
+    2300574: table3
+    2300576: table4
+    3300000: chair10
+    3300002: chair10 1
+    3300004: chair10 2
+    3300006: chair10 3
+    3300008: chair5
+    3300010: chair5 1
+    3300012: chair5 2
+    3300014: chair5 3
+    3300016: chair6
+    3300018: chair6 1
+    3300020: chair6 2
+    3300022: chair6 3
+    3300024: chair7
+    3300026: chair7 1
+    3300028: chair7 2
+    3300030: chair7 3
+    3300032: chair8
+    3300034: chair8 1
+    3300036: chair8 2
+    3300038: chair8 3
+    3300040: chair9
+    3300042: chair9 1
+    3300044: chair9 2
+    3300046: chair9 3
+    3300048: pCube1
+    3300050: pCube10
+    3300052: pCube10 1
+    3300054: pCube10 2
+    3300056: pCube10 3
+    3300058: pCube11
+    3300060: pCube11 1
+    3300062: pCube11 2
+    3300064: pCube11 3
+    3300066: pCube12
+    3300068: pCube12 1
+    3300070: pCube12 2
+    3300072: pCube12 3
+    3300074: pCube6
+    3300076: pCube6 1
+    3300078: pCube6 2
+    3300080: pCube6 3
+    3300082: pCube8
+    3300084: pCube8 1
+    3300086: pCube8 2
+    3300088: pCube8 3
+    3300090: pCube9
+    3300092: pCube9 1
+    3300094: pCube9 2
+    3300096: pCube9 3
+    3300098: pCylinder1
+    3300100: pCylinder2
+    3300102: plant_dirtContainer
+    3300104: plant_small
+    3300106: plant_small1
+    3300108: plant_small10
+    3300110: plant_small11
+    3300112: plant_small12
+    3300114: plant_small13
+    3300116: plant_small14
+    3300118: plant_small15
+    3300120: plant_small16
+    3300122: plant_small17
+    3300124: plant_small18
+    3300126: plant_small19
+    3300128: plant_small2
+    3300130: plant_small20
+    3300132: plant_small21
+    3300134: plant_small22
+    3300136: plant_small23
+    3300138: plant_small24
+    3300140: plant_small25
+    3300142: plant_small26
+    3300144: plant_small27
+    3300146: plant_small28
+    3300148: plant_small29
+    3300150: plant_small3
+    3300152: plant_small30
+    3300154: plant_small31
+    3300156: plant_small32
+    3300158: plant_small33
+    3300160: plant_small34
+    3300162: plant_small35
+    3300164: plant_small36
+    3300166: plant_small37
+    3300168: plant_small38
+    3300170: plant_small39
+    3300172: plant_small4
+    3300174: plant_small40
+    3300176: plant_small41
+    3300178: plant_small42
+    3300180: plant_small43
+    3300182: plant_small44
+    3300184: plant_small45
+    3300186: plant_small46
+    3300188: plant_small47
+    3300190: plant_small48
+    3300192: plant_small49
+    3300194: plant_small5
+    3300196: plant_small50
+    3300198: plant_small51
+    3300200: plant_small52
+    3300202: plant_small53
+    3300204: plant_small54
+    3300206: plant_small55
+    3300208: plant_small56
+    3300210: plant_small57
+    3300212: plant_small58
+    3300214: plant_small59
+    3300216: plant_small6
+    3300218: plant_small60
+    3300220: plant_small61
+    3300222: plant_small62
+    3300224: plant_small63
+    3300226: plant_small64
+    3300228: plant_small7
+    3300230: plant_small8
+    3300232: plant_small9
+    3300234: plant_table:pCube1
+    3300236: plant_table:pCylinder1
+    3300238: plant_table:pCylinder2
+    3300240: plant_table:plant_dirtContainer
+    3300242: plant_table:plant_small
+    3300244: plant_table:plant_small1
+    3300246: plant_table:plant_small10
+    3300248: plant_table:plant_small11
+    3300250: plant_table:plant_small12
+    3300252: plant_table:plant_small13
+    3300254: plant_table:plant_small14
+    3300256: plant_table:plant_small15
+    3300258: plant_table:plant_small16
+    3300260: plant_table:plant_small17
+    3300262: plant_table:plant_small18
+    3300264: plant_table:plant_small19
+    3300266: plant_table:plant_small2
+    3300268: plant_table:plant_small20
+    3300270: plant_table:plant_small21
+    3300272: plant_table:plant_small22
+    3300274: plant_table:plant_small23
+    3300276: plant_table:plant_small24
+    3300278: plant_table:plant_small25
+    3300280: plant_table:plant_small26
+    3300282: plant_table:plant_small27
+    3300284: plant_table:plant_small28
+    3300286: plant_table:plant_small29
+    3300288: plant_table:plant_small3
+    3300290: plant_table:plant_small30
+    3300292: plant_table:plant_small31
+    3300294: plant_table:plant_small32
+    3300296: plant_table:plant_small33
+    3300298: plant_table:plant_small34
+    3300300: plant_table:plant_small35
+    3300302: plant_table:plant_small36
+    3300304: plant_table:plant_small37
+    3300306: plant_table:plant_small38
+    3300308: plant_table:plant_small39
+    3300310: plant_table:plant_small4
+    3300312: plant_table:plant_small40
+    3300314: plant_table:plant_small41
+    3300316: plant_table:plant_small42
+    3300318: plant_table:plant_small43
+    3300320: plant_table:plant_small44
+    3300322: plant_table:plant_small45
+    3300324: plant_table:plant_small46
+    3300326: plant_table:plant_small47
+    3300328: plant_table:plant_small48
+    3300330: plant_table:plant_small49
+    3300332: plant_table:plant_small5
+    3300334: plant_table:plant_small50
+    3300336: plant_table:plant_small51
+    3300338: plant_table:plant_small52
+    3300340: plant_table:plant_small53
+    3300342: plant_table:plant_small54
+    3300344: plant_table:plant_small55
+    3300346: plant_table:plant_small56
+    3300348: plant_table:plant_small57
+    3300350: plant_table:plant_small58
+    3300352: plant_table:plant_small59
+    3300354: plant_table:plant_small6
+    3300356: plant_table:plant_small60
+    3300358: plant_table:plant_small61
+    3300360: plant_table:plant_small62
+    3300362: plant_table:plant_small63
+    3300364: plant_table:plant_small64
+    3300366: plant_table:plant_small7
+    3300368: plant_table:plant_small8
+    3300370: plant_table:plant_small9
+    3300372: plant_table:plant_tall
+    3300374: plant_table:plant_tall1
+    3300376: plant_table:plant_tall10
+    3300378: plant_table:plant_tall11
+    3300380: plant_table:plant_tall12
+    3300382: plant_table:plant_tall13
+    3300384: plant_table:plant_tall14
+    3300386: plant_table:plant_tall15
+    3300388: plant_table:plant_tall16
+    3300390: plant_table:plant_tall17
+    3300392: plant_table:plant_tall18
+    3300394: plant_table:plant_tall19
+    3300396: plant_table:plant_tall20
+    3300398: plant_table:plant_tall21
+    3300400: plant_table:plant_tall22
+    3300402: plant_table:plant_tall23
+    3300404: plant_table:plant_tall24
+    3300406: plant_table:plant_tall25
+    3300408: plant_table:plant_tall26
+    3300410: plant_table:plant_tall27
+    3300412: plant_table:plant_tall28
+    3300414: plant_table:plant_tall29
+    3300416: plant_table:plant_tall30
+    3300418: plant_table:plant_tall31
+    3300420: plant_table:plant_tall32
+    3300422: plant_table:plant_tall33
+    3300424: plant_table:plant_tall34
+    3300426: plant_table:plant_tall35
+    3300428: plant_table:plant_tall39
+    3300430: plant_table:plant_tall4
+    3300432: plant_table:plant_tall40
+    3300434: plant_table:plant_tall41
+    3300436: plant_table:plant_tall42
+    3300438: plant_table:plant_tall43
+    3300440: plant_table:plant_tall44
+    3300442: plant_table:plant_tall45
+    3300444: plant_table:plant_tall46
+    3300446: plant_table:plant_tall47
+    3300448: plant_table:plant_tall48
+    3300450: plant_table:plant_tall49
+    3300452: plant_table:plant_tall5
+    3300454: plant_table:plant_tall50
+    3300456: plant_table:plant_tall51
+    3300458: plant_table:plant_tall52
+    3300460: plant_table:plant_tall53
+    3300462: plant_table:plant_tall6
+    3300464: plant_table:plant_tall7
+    3300466: plant_table:plant_tall8
+    3300468: plant_table:plant_tall9
+    3300470: plant_tall
+    3300472: plant_tall1
+    3300474: plant_tall10
+    3300476: plant_tall11
+    3300478: plant_tall12
+    3300480: plant_tall13
+    3300482: plant_tall14
+    3300484: plant_tall15
+    3300486: plant_tall16
+    3300488: plant_tall17
+    3300490: plant_tall18
+    3300492: plant_tall19
+    3300494: plant_tall20
+    3300496: plant_tall21
+    3300498: plant_tall22
+    3300500: plant_tall23
+    3300502: plant_tall24
+    3300504: plant_tall25
+    3300506: plant_tall26
+    3300508: plant_tall27
+    3300510: plant_tall28
+    3300512: plant_tall29
+    3300514: plant_tall30
+    3300516: plant_tall31
+    3300518: plant_tall32
+    3300520: plant_tall33
+    3300522: plant_tall34
+    3300524: plant_tall35
+    3300526: plant_tall39
+    3300528: plant_tall4
+    3300530: plant_tall40
+    3300532: plant_tall41
+    3300534: plant_tall42
+    3300536: plant_tall43
+    3300538: plant_tall44
+    3300540: plant_tall45
+    3300542: plant_tall46
+    3300544: plant_tall47
+    3300546: plant_tall48
+    3300548: plant_tall49
+    3300550: plant_tall5
+    3300552: plant_tall50
+    3300554: plant_tall51
+    3300556: plant_tall52
+    3300558: plant_tall53
+    3300560: plant_tall6
+    3300562: plant_tall7
+    3300564: plant_tall8
+    3300566: plant_tall9
+    3300568: room_base
+    3300570: table
+    3300572: table2
+    3300574: table3
+    3300576: table4
+    4300000: room_base
+    4300002: door_south
+    4300004: door_west
+    4300006: door_east
+    4300008: door_north
+    4300010: plant_table:plant_dirtContainer
+    4300012: plant_table:plant_tall
+    4300014: plant_table:plant_tall1
+    4300016: plant_table:plant_tall10
+    4300018: plant_table:plant_tall11
+    4300020: plant_table:plant_tall12
+    4300022: plant_table:plant_tall13
+    4300024: plant_table:plant_tall14
+    4300026: plant_table:plant_tall15
+    4300028: plant_table:plant_tall16
+    4300030: plant_table:plant_tall17
+    4300032: plant_table:plant_tall18
+    4300034: plant_table:plant_tall19
+    4300036: plant_table:plant_tall20
+    4300038: plant_table:plant_tall21
+    4300040: plant_table:plant_tall22
+    4300042: plant_table:plant_tall23
+    4300044: plant_table:plant_tall24
+    4300046: plant_table:plant_tall25
+    4300048: plant_table:plant_tall26
+    4300050: plant_table:plant_tall27
+    4300052: plant_table:plant_tall28
+    4300054: plant_table:plant_tall29
+    4300056: plant_table:plant_tall30
+    4300058: plant_table:plant_tall31
+    4300060: plant_table:plant_tall32
+    4300062: plant_table:plant_tall33
+    4300064: plant_table:plant_tall34
+    4300066: plant_table:plant_tall35
+    4300068: plant_table:plant_tall39
+    4300070: plant_table:plant_tall4
+    4300072: plant_table:plant_tall40
+    4300074: plant_table:plant_tall41
+    4300076: plant_table:plant_tall42
+    4300078: plant_table:plant_tall43
+    4300080: plant_table:plant_tall44
+    4300082: plant_table:plant_tall45
+    4300084: plant_table:plant_tall46
+    4300086: plant_table:plant_tall47
+    4300088: plant_table:plant_tall48
+    4300090: plant_table:plant_tall49
+    4300092: plant_table:plant_tall5
+    4300094: plant_table:plant_tall50
+    4300096: plant_table:plant_tall51
+    4300098: plant_table:plant_tall52
+    4300100: plant_table:plant_tall53
+    4300102: plant_table:plant_tall6
+    4300104: plant_table:plant_tall7
+    4300106: plant_table:plant_tall8
+    4300108: plant_table:plant_tall9
+    4300110: plant_table:plant_small
+    4300112: plant_table:plant_small1
+    4300114: plant_table:plant_small10
+    4300116: plant_table:plant_small11
+    4300118: plant_table:plant_small12
+    4300120: plant_table:plant_small13
+    4300122: plant_table:plant_small14
+    4300124: plant_table:plant_small15
+    4300126: plant_table:plant_small16
+    4300128: plant_table:plant_small17
+    4300130: plant_table:plant_small18
+    4300132: plant_table:plant_small19
+    4300134: plant_table:plant_small2
+    4300136: plant_table:plant_small20
+    4300138: plant_table:plant_small21
+    4300140: plant_table:plant_small22
+    4300142: plant_table:plant_small23
+    4300144: plant_table:plant_small24
+    4300146: plant_table:plant_small25
+    4300148: plant_table:plant_small26
+    4300150: plant_table:plant_small27
+    4300152: plant_table:plant_small28
+    4300154: plant_table:plant_small29
+    4300156: plant_table:plant_small3
+    4300158: plant_table:plant_small30
+    4300160: plant_table:plant_small31
+    4300162: plant_table:plant_small32
+    4300164: plant_table:plant_small33
+    4300166: plant_table:plant_small34
+    4300168: plant_table:plant_small35
+    4300170: plant_table:plant_small36
+    4300172: plant_table:plant_small37
+    4300174: plant_table:plant_small38
+    4300176: plant_table:plant_small39
+    4300178: plant_table:plant_small4
+    4300180: plant_table:plant_small40
+    4300182: plant_table:plant_small41
+    4300184: plant_table:plant_small42
+    4300186: plant_table:plant_small43
+    4300188: plant_table:plant_small44
+    4300190: plant_table:plant_small45
+    4300192: plant_table:plant_small46
+    4300194: plant_table:plant_small47
+    4300196: plant_table:plant_small48
+    4300198: plant_table:plant_small49
+    4300200: plant_table:plant_small5
+    4300202: plant_table:plant_small50
+    4300204: plant_table:plant_small51
+    4300206: plant_table:plant_small52
+    4300208: plant_table:plant_small53
+    4300210: plant_table:plant_small54
+    4300212: plant_table:plant_small55
+    4300214: plant_table:plant_small56
+    4300216: plant_table:plant_small57
+    4300218: plant_table:plant_small58
+    4300220: plant_table:plant_small59
+    4300222: plant_table:plant_small6
+    4300224: plant_table:plant_small60
+    4300226: plant_table:plant_small61
+    4300228: plant_table:plant_small62
+    4300230: plant_table:plant_small63
+    4300232: plant_table:plant_small64
+    4300234: plant_table:plant_small7
+    4300236: plant_table:plant_small8
+    4300238: plant_table:plant_small9
+    4300240: plant_table:pCube1
+    4300242: plant_table:pCylinder1
+    4300244: plant_table:pCylinder2
+    4300246: plant_dirtContainer
+    4300248: plant_tall
+    4300250: plant_tall1
+    4300252: plant_tall10
+    4300254: plant_tall11
+    4300256: plant_tall12
+    4300258: plant_tall13
+    4300260: plant_tall14
+    4300262: plant_tall15
+    4300264: plant_tall16
+    4300266: plant_tall17
+    4300268: plant_tall18
+    4300270: plant_tall19
+    4300272: plant_tall20
+    4300274: plant_tall21
+    4300276: plant_tall22
+    4300278: plant_tall23
+    4300280: plant_tall24
+    4300282: plant_tall25
+    4300284: plant_tall26
+    4300286: plant_tall27
+    4300288: plant_tall28
+    4300290: plant_tall29
+    4300292: plant_tall30
+    4300294: plant_tall31
+    4300296: plant_tall32
+    4300298: plant_tall33
+    4300300: plant_tall34
+    4300302: plant_tall35
+    4300304: plant_tall39
+    4300306: plant_tall4
+    4300308: plant_tall40
+    4300310: plant_tall41
+    4300312: plant_tall42
+    4300314: plant_tall43
+    4300316: plant_tall44
+    4300318: plant_tall45
+    4300320: plant_tall46
+    4300322: plant_tall47
+    4300324: plant_tall48
+    4300326: plant_tall49
+    4300328: plant_tall5
+    4300330: plant_tall50
+    4300332: plant_tall51
+    4300334: plant_tall52
+    4300336: plant_tall53
+    4300338: plant_tall6
+    4300340: plant_tall7
+    4300342: plant_tall8
+    4300344: plant_tall9
+    4300346: plant_small
+    4300348: plant_small1
+    4300350: plant_small10
+    4300352: plant_small11
+    4300354: plant_small12
+    4300356: plant_small13
+    4300358: plant_small14
+    4300360: plant_small15
+    4300362: plant_small16
+    4300364: plant_small17
+    4300366: plant_small18
+    4300368: plant_small19
+    4300370: plant_small2
+    4300372: plant_small20
+    4300374: plant_small21
+    4300376: plant_small22
+    4300378: plant_small23
+    4300380: plant_small24
+    4300382: plant_small25
+    4300384: plant_small26
+    4300386: plant_small27
+    4300388: plant_small28
+    4300390: plant_small29
+    4300392: plant_small3
+    4300394: plant_small30
+    4300396: plant_small31
+    4300398: plant_small32
+    4300400: plant_small33
+    4300402: plant_small34
+    4300404: plant_small35
+    4300406: plant_small36
+    4300408: plant_small37
+    4300410: plant_small38
+    4300412: plant_small39
+    4300414: plant_small4
+    4300416: plant_small40
+    4300418: plant_small41
+    4300420: plant_small42
+    4300422: plant_small43
+    4300424: plant_small44
+    4300426: plant_small45
+    4300428: plant_small46
+    4300430: plant_small47
+    4300432: plant_small48
+    4300434: plant_small49
+    4300436: plant_small5
+    4300438: plant_small50
+    4300440: plant_small51
+    4300442: plant_small52
+    4300444: plant_small53
+    4300446: plant_small54
+    4300448: plant_small55
+    4300450: plant_small56
+    4300452: plant_small57
+    4300454: plant_small58
+    4300456: plant_small59
+    4300458: plant_small6
+    4300460: plant_small60
+    4300462: plant_small61
+    4300464: plant_small62
+    4300466: plant_small63
+    4300468: plant_small64
+    4300470: plant_small7
+    4300472: plant_small8
+    4300474: plant_small9
+    4300476: pCube1
+    4300478: pCylinder1
+    4300480: pCylinder2
+    4300482: table
+    4300484: pCube12
+    4300486: pCube11
+    4300488: pCube10
+    4300490: pCube9
+    4300492: pCube8
+    4300494: pCube6
+    4300496: chair10
+    4300498: chair9
+    4300500: chair8
+    4300502: chair7
+    4300504: chair6
+    4300506: chair5
+    4300508: table2
+    4300510: pCube12
+    4300512: pCube11
+    4300514: pCube10
+    4300516: pCube9
+    4300518: pCube8
+    4300520: pCube6
+    4300522: chair10
+    4300524: chair9
+    4300526: chair8
+    4300528: chair7
+    4300530: chair6
+    4300532: chair5
+    4300534: table3
+    4300536: pCube12
+    4300538: pCube11
+    4300540: pCube10
+    4300542: pCube9
+    4300544: pCube8
+    4300546: pCube6
+    4300548: chair10
+    4300550: chair9
+    4300552: chair8
+    4300554: chair7
+    4300556: chair6
+    4300558: chair5
+    4300560: table4
+    4300562: pCube12
+    4300564: pCube11
+    4300566: pCube10
+    4300568: pCube9
+    4300570: pCube8
+    4300572: pCube6
+    4300574: chair10
+    4300576: chair9
+    4300578: chair8
+    4300580: chair7
+    4300582: chair6
+    4300584: chair5
+    7400000: food_room
+    9500000: //RootNode
+    13700000: door_east
+    13700002: door_north
+    13700004: door_south
+    13700006: door_west
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
