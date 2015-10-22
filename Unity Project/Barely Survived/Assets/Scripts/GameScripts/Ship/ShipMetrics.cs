@@ -1,5 +1,5 @@
-﻿using UnityEngine;
-using System.Collections;
+﻿using System.Collections;
+using UnityEngine;
 
 [RequireComponent (typeof (FoodEngine),typeof (FuelEngine),typeof (LifeSupportEngine))]
 public class ShipMetrics : MonoBehaviour {
@@ -8,8 +8,12 @@ public class ShipMetrics : MonoBehaviour {
     public FuelEngine fuelEngine;
     public LifeSupportEngine lifeSupportEngine;
 
-    public float food{ get{ return foodEngine.food; } }
+    public FuelEngine.ThrustSetting thrustSetting{
+        get{ return fuelEngine.thrustSetting; }
+        set{ fuelEngine.thrustSetting = value; }
+    }
     public float fuel{ get{ return fuelEngine.fuel; } }
+    public float food{ get{ return foodEngine.food; } }
     public float lifeSupport{ get{ return lifeSupportEngine.lifeSupport; } }
 
 	// Use this for initialization

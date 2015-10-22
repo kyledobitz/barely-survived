@@ -5,7 +5,7 @@ public class FoodEngine : MonoBehaviour {
 
     public float food;
     public float startingFood = 100f;
-    
+
     public float personConsumptionRate = 1f;
 
     private GameManager gameManager;
