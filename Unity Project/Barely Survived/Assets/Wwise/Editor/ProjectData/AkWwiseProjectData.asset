@@ -16,9 +16,19 @@ MonoBehaviour:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{9C334088-B4A3-4802-A380-B05BD83FF266}'
-    m_lastTimePsrt1: 1247357365
-    m_lastTimePart2: -1999447259
-    List: []
+    m_lastTimePsrt1: 106659966
+    m_lastTimePart2: -1999447187
+    List:
+    - Name: Test
+      Path: Default Work Unit\Test
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Test
+        ObjectType: 3
+      ID: -1137964055
+      Guid: aedef65d703589418ea4f78f3cd759bb
+      maxAttenuation: 0
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     ParentPhysicalPath: 
@@ -44,11 +54,22 @@ MonoBehaviour:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{46ABC31B-41E4-4146-88AE-370CF27B9214}'
-    m_lastTimePsrt1: 1247377366
-    m_lastTimePart2: -1999447259
-    List: []
+    m_lastTimePsrt1: 106669967
+    m_lastTimePart2: -1999447187
+    List:
+    - Name: Test
+      Path: Default Work Unit\Test
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Test
+        ObjectType: 7
+      ID: -1137964055
+      Guid: cfe4b1cb2ecdeb4fba0a2aea4a02258b
   ExpandedItems:
   - /Barely Survived
+  - /Barely Survived/Events
+  - /Barely Survived/Events/Default Work Unit
   m_lastPopulateTimePsrt1: 0
   m_lastPopulateTimePart2: 0
   autoPopulateEnabled: 1

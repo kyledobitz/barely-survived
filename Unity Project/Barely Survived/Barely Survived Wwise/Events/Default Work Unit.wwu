@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{9C334088-B4A3-4802-A380-B05BD83FF266}" SchemaVersion="70">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{9C334088-B4A3-4802-A380-B05BD83FF266}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{9C334088-B4A3-4802-A380-B05BD83FF266}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Test" ID="{5DF6DEAE-3570-4189-8EA4-F78F3CD759BB}">
+					<ChildrenList>
+						<Action Name="Play" ID="{40509D72-DC2B-48FF-A592-6D7240F225F1}" ShortID="1054083856" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{68C2F21D-BBE3-4184-B821-9910C52B929C}" Global="false">
+									<ObjectRef Name="42 Man Screams #1_ Short Yell" ID="{9C06C483-5813-4DC4-A030-60E62DD5039C}" WorkUnitID="{EB400B2F-90AB-48D2-9CFE-3E5FFEDA3A1C}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

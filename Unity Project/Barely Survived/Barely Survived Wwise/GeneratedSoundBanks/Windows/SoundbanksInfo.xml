@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="10" SoundbankVersion="113">
+	<RootPaths>
+		<ProjectRoot>F:\Gitstuff\barely-survived\Unity Project\Barely Survived\Barely Survived Wwise\</ProjectRoot>
+		<SourceFilesRoot>F:\Gitstuff\barely-survived\Unity Project\Barely Survived\Barely Survived Wwise\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>F:\Gitstuff\barely-survived\Unity Project\Barely Survived\Barely Survived Wwise\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>F:\Gitstuff\barely-survived\Unity Project\Barely Survived\Barely Survived Wwise\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3157003241" Language="SFX">
+			<ShortName>Test</ShortName>
+			<Path>Test.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3157003241" Name="Test"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="760340954" Language="SFX">
+					<ShortName>42 Man Screams #1_ Short Yell.wav</ShortName>
+					<Path>SFX\42 Man Screams #1_ Short Yell_9E69E797.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{EB400B2F-90AB-48D2-9CFE-3E5FFEDA3A1C}" SchemaVersion="70">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{EB400B2F-90AB-48D2-9CFE-3E5FFEDA3A1C}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{EB400B2F-90AB-48D2-9CFE-3E5FFEDA3A1C}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="42 Man Screams #1_ Short Yell" ID="{9C06C483-5813-4DC4-A030-60E62DD5039C}" ShortID="604799238" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56FDBADF-5B2E-4995-AEE4-2ADA769E47AB}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A838622-8FF7-4C4F-8FB6-C7AAA655610B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="42 Man Screams #1_ Short Yell" ID="{CDF279F4-6163-47F5-82BA-D79E574B2715}" ShortID="760340954">
+							<Language>SFX</Language>
+							<AudioFile>42 Man Screams #1_ Short Yell.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="42 Man Screams #1_ Short Yell" ID="{CDF279F4-6163-47F5-82BA-D79E574B2715}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>
