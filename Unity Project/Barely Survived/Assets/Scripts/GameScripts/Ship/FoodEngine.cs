@@ -4,6 +4,7 @@ using System.Collections;
 public class FoodEngine : MonoBehaviour {
 
     public float food;
+    public float foodRate;
     public float startingFood = 100f;
 
     public float personConsumptionRate = 1f;
@@ -12,6 +13,7 @@ public class FoodEngine : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+        food = startingFood;
 		gameManager = FindObjectOfType<GameManager>();
 	}
 	
@@ -22,6 +24,7 @@ public class FoodEngine : MonoBehaviour {
         foreach(GardenRoom garden in gameManager.gardenRooms) {
             gardensGrew += garden.foodGrowth;
         }
-        food += (gardensGrew - peopleAte) * Time.deltaTime;
+        foodRate = gardensGrew - peopleAte;
+        food += foodRate * Time.deltaTime;
 	}
 }

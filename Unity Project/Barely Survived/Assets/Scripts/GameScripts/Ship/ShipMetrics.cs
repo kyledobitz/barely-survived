@@ -16,6 +16,10 @@ public class ShipMetrics : MonoBehaviour {
     public float food{ get{ return foodEngine.food; } }
     public float lifeSupport{ get{ return lifeSupportEngine.lifeSupport; } }
 
+    public float fuelRate{ get{ return fuelEngine.fuelRate; } }
+    public float foodRate{ get{ return foodEngine.foodRate; } }
+    public float lifeSupportRate{ get{ return lifeSupportEngine.lifeSupportRate; } }
+
 	// Use this for initialization
 	void Start () {
         foodEngine = GetComponent<FoodEngine>();
