@@ -56,7 +56,12 @@ ModelImporter:
     4300004: pCylinder5
     4300006: pCylinder4
     4300008: pCylinder1
-    7400000: person
+    7400000: walk
+    7400002: death
+    7400004: idle
+    7400006: take_aim
+    7400008: aim_idle
+    7400010: fire
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -77,7 +82,379 @@ ModelImporter:
     animationScaleError: .5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: walk
+      takeName: person
+      firstFrame: 1
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: person_hip
+        weight: 1
+      - path: person_hip/joint3
+        weight: 1
+      - path: person_hip/joint3/pCylinder2
+        weight: 1
+      - path: person_hip/joint3/person_right_attach
+        weight: 1
+      - path: person_hip/joint5
+        weight: 1
+      - path: person_hip/joint5/pCylinder3
+        weight: 1
+      - path: person_hip/joint5/person_left_attach
+        weight: 1
+      - path: person_hip/pCylinder1
+        weight: 1
+      - path: person_hip/person_head
+        weight: 1
+      - path: person_hip/person_left_leg
+        weight: 1
+      - path: person_hip/person_left_leg/pCylinder4
+        weight: 1
+      - path: person_hip/person_left_leg/person_left_knee
+        weight: 1
+      - path: person_hip/person_left_leg/person_left_knee/person_left_foot
+        weight: 1
+      - path: person_hip/person_right_leg
+        weight: 1
+      - path: person_hip/person_right_leg/pCylinder5
+        weight: 1
+      - path: person_hip/person_right_leg/person_right_knee
+        weight: 1
+      - path: person_hip/person_right_leg/person_right_knee/person_right_foot
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: death
+      takeName: person
+      firstFrame: 31
+      lastFrame: 51
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: person_hip
+        weight: 1
+      - path: person_hip/joint3
+        weight: 1
+      - path: person_hip/joint3/pCylinder2
+        weight: 1
+      - path: person_hip/joint3/person_right_attach
+        weight: 1
+      - path: person_hip/joint5
+        weight: 1
+      - path: person_hip/joint5/pCylinder3
+        weight: 1
+      - path: person_hip/joint5/person_left_attach
+        weight: 1
+      - path: person_hip/pCylinder1
+        weight: 1
+      - path: person_hip/person_head
+        weight: 1
+      - path: person_hip/person_left_leg
+        weight: 1
+      - path: person_hip/person_left_leg/pCylinder4
+        weight: 1
+      - path: person_hip/person_left_leg/person_left_knee
+        weight: 1
+      - path: person_hip/person_left_leg/person_left_knee/person_left_foot
+        weight: 1
+      - path: person_hip/person_right_leg
+        weight: 1
+      - path: person_hip/person_right_leg/pCylinder5
+        weight: 1
+      - path: person_hip/person_right_leg/person_right_knee
+        weight: 1
+      - path: person_hip/person_right_leg/person_right_knee/person_right_foot
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: idle
+      takeName: person
+      firstFrame: 31
+      lastFrame: 31
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: person_hip
+        weight: 1
+      - path: person_hip/joint3
+        weight: 1
+      - path: person_hip/joint3/pCylinder2
+        weight: 1
+      - path: person_hip/joint3/person_right_attach
+        weight: 1
+      - path: person_hip/joint5
+        weight: 1
+      - path: person_hip/joint5/pCylinder3
+        weight: 1
+      - path: person_hip/joint5/person_left_attach
+        weight: 1
+      - path: person_hip/pCylinder1
+        weight: 1
+      - path: person_hip/person_head
+        weight: 1
+      - path: person_hip/person_left_leg
+        weight: 1
+      - path: person_hip/person_left_leg/pCylinder4
+        weight: 1
+      - path: person_hip/person_left_leg/person_left_knee
+        weight: 1
+      - path: person_hip/person_left_leg/person_left_knee/person_left_foot
+        weight: 1
+      - path: person_hip/person_right_leg
+        weight: 1
+      - path: person_hip/person_right_leg/pCylinder5
+        weight: 1
+      - path: person_hip/person_right_leg/person_right_knee
+        weight: 1
+      - path: person_hip/person_right_leg/person_right_knee/person_right_foot
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: take_aim
+      takeName: person
+      firstFrame: 53
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: person_hip
+        weight: 1
+      - path: person_hip/joint3
+        weight: 1
+      - path: person_hip/joint3/pCylinder2
+        weight: 1
+      - path: person_hip/joint3/person_right_attach
+        weight: 1
+      - path: person_hip/joint5
+        weight: 1
+      - path: person_hip/joint5/pCylinder3
+        weight: 1
+      - path: person_hip/joint5/person_left_attach
+        weight: 1
+      - path: person_hip/pCylinder1
+        weight: 1
+      - path: person_hip/person_head
+        weight: 1
+      - path: person_hip/person_left_leg
+        weight: 1
+      - path: person_hip/person_left_leg/pCylinder4
+        weight: 1
+      - path: person_hip/person_left_leg/person_left_knee
+        weight: 1
+      - path: person_hip/person_left_leg/person_left_knee/person_left_foot
+        weight: 1
+      - path: person_hip/person_right_leg
+        weight: 1
+      - path: person_hip/person_right_leg/pCylinder5
+        weight: 1
+      - path: person_hip/person_right_leg/person_right_knee
+        weight: 1
+      - path: person_hip/person_right_leg/person_right_knee/person_right_foot
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: aim_idle
+      takeName: person
+      firstFrame: 60
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: person_hip
+        weight: 1
+      - path: person_hip/joint3
+        weight: 1
+      - path: person_hip/joint3/pCylinder2
+        weight: 1
+      - path: person_hip/joint3/person_right_attach
+        weight: 1
+      - path: person_hip/joint5
+        weight: 1
+      - path: person_hip/joint5/pCylinder3
+        weight: 1
+      - path: person_hip/joint5/person_left_attach
+        weight: 1
+      - path: person_hip/pCylinder1
+        weight: 1
+      - path: person_hip/person_head
+        weight: 1
+      - path: person_hip/person_left_leg
+        weight: 1
+      - path: person_hip/person_left_leg/pCylinder4
+        weight: 1
+      - path: person_hip/person_left_leg/person_left_knee
+        weight: 1
+      - path: person_hip/person_left_leg/person_left_knee/person_left_foot
+        weight: 1
+      - path: person_hip/person_right_leg
+        weight: 1
+      - path: person_hip/person_right_leg/pCylinder5
+        weight: 1
+      - path: person_hip/person_right_leg/person_right_knee
+        weight: 1
+      - path: person_hip/person_right_leg/person_right_knee/person_right_foot
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: fire
+      takeName: person
+      firstFrame: 60
+      lastFrame: 65
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: person_hip
+        weight: 1
+      - path: person_hip/joint3
+        weight: 1
+      - path: person_hip/joint3/pCylinder2
+        weight: 1
+      - path: person_hip/joint3/person_right_attach
+        weight: 1
+      - path: person_hip/joint5
+        weight: 1
+      - path: person_hip/joint5/pCylinder3
+        weight: 1
+      - path: person_hip/joint5/person_left_attach
+        weight: 1
+      - path: person_hip/pCylinder1
+        weight: 1
+      - path: person_hip/person_head
+        weight: 1
+      - path: person_hip/person_left_leg
+        weight: 1
+      - path: person_hip/person_left_leg/pCylinder4
+        weight: 1
+      - path: person_hip/person_left_leg/person_left_knee
+        weight: 1
+      - path: person_hip/person_left_leg/person_left_knee/person_left_foot
+        weight: 1
+      - path: person_hip/person_right_leg
+        weight: 1
+      - path: person_hip/person_right_leg/pCylinder5
+        weight: 1
+      - path: person_hip/person_right_leg/person_right_knee
+        weight: 1
+      - path: person_hip/person_right_leg/person_right_knee/person_right_foot
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
     isReadable: 1
   meshes:
     lODScreenPercentages: []
