@@ -1,6 +1,5 @@
 ﻿using Mono.Xml.Xsl;
 using System.Collections;
-using System.Collections.Generic;
 using System.Reflection;
 using UnityEngine;
 using UnityEngine.UI;
@@ -16,13 +15,12 @@ public class BoundSlider : MonoBehaviour {
 	void Start () {
 		_shipMetrics = FindObjectOfType<ShipMetrics>();
         _slider = GetComponent<Slider>();
-        List<Text> texts = new List<Text>(GetComponentsInChildren<Text>());
-        _text = texts.Find(text => text.name == "Number");
+        _text = GetComponentInChildren<Text>();
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		_slider.value = (float) _shipMetrics.GetType().GetProperty(property).GetValue(_shipMetrics,null);;
-        _text.text = _slider.value.ToString("F0");
+        _text.text = _slider.value.ToString();
 	}
 }

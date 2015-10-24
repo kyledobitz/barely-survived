@@ -6,7 +6,6 @@ TagManager:
   tags:
   - Person
   - ThrustParticleSystem
-  - ThrustParticles
   layers:
   - Default
   - TransparentFX
@@ -46,9 +45,6 @@ TagManager:
     locked: 0
   - name: Background
     uniqueID: 1963078997
-    locked: 0
-  - name: Middleground
-    uniqueID: 259244983
     locked: 0
   - name: Foreground
     uniqueID: 3256051105
