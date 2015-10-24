@@ -4,6 +4,14 @@
 		<WorkUnit Name="Default Work Unit" ID="{EB400B2F-90AB-48D2-9CFE-3E5FFEDA3A1C}" PersistMode="Standalone">
 			<ChildrenList>
 				<Sound Name="42 Man Screams #1_ Short Yell" ID="{9C06C483-5813-4DC4-A030-60E62DD5039C}" ShortID="604799238" Type="SoundFX">
+					<PropertyList>
+						<Property Name="PositioningType" Type="int16" Value="1"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-19</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56FDBADF-5B2E-4995-AEE4-2ADA769E47AB}"/>
@@ -18,6 +26,14 @@
 							<AudioFile>42 Man Screams #1_ Short Yell.wav</AudioFile>
 						</AudioFileSource>
 					</ChildrenList>
+					<PositioningInfo>
+						<Panner Name="" ID="{41B4AC61-DF02-4DE3-842D-88E6E0F6CC61}">
+							<PropertyList>
+								<Property Name="PanX" Type="Real64" Value="-100"/>
+								<Property Name="PanY" Type="Real64" Value="0.431965442764578"/>
+							</PropertyList>
+						</Panner>
+					</PositioningInfo>
 					<ActiveSourceList>
 						<ActiveSource Name="42 Man Screams #1_ Short Yell" ID="{CDF279F4-6163-47F5-82BA-D79E574B2715}" Platform="Linked"/>
 					</ActiveSourceList>
