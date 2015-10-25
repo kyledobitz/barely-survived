@@ -19,12 +19,14 @@
 			<ShortName>Test</ShortName>
 			<Path>Test.bnk</Path>
 			<IncludedEvents>
-				<Event Id="3157003241" Name="Test"/>
+				<Event Id="1652966903" Name="death_scream"/>
+				<Event Id="3849537216" Name="play_title"/>
+				<Event Id="2370690330" Name="stop_title"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
-				<File Id="760340954" Language="SFX">
-					<ShortName>42 Man Screams #1_ Short Yell.wav</ShortName>
-					<Path>SFX\42 Man Screams #1_ Short Yell_9E69E797.wem</Path>
+				<File Id="709327519" Language="SFX">
+					<ShortName>Space MainTheme.wav</ShortName>
+					<Path>SFX\Space MainTheme_4B8CC0C5.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{2391D27F-D781-468C-BECC-6F12515E265F}" SchemaVersion="70">
 	<Switches>
-		<WorkUnit Name="Default Work Unit" ID="{2391D27F-D781-468C-BECC-6F12515E265F}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{2391D27F-D781-468C-BECC-6F12515E265F}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="music_switch" ID="{7995B3F7-CD5D-4CAE-9BE0-0F3DE7E32295}">
+					<ChildrenList>
+						<Switch Name="normal" ID="{514BF2B7-8591-4392-BE0C-BF78EC9B33B8}"/>
+						<Switch Name="occurence" ID="{553855AD-F092-4A23-8D9B-5B85D3E7341B}"/>
+						<Switch Name="danger" ID="{012368CA-A900-41E1-96AD-3382F9D803BE}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</Switches>
 </WwiseDocument>
