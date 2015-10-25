@@ -3,15 +3,7 @@
 	<AudioObjects>
 		<WorkUnit Name="Default Work Unit" ID="{EB400B2F-90AB-48D2-9CFE-3E5FFEDA3A1C}" PersistMode="Standalone">
 			<ChildrenList>
-				<Sound Name="42 Man Screams #1_ Short Yell" ID="{9C06C483-5813-4DC4-A030-60E62DD5039C}" ShortID="604799238" Type="SoundFX">
-					<PropertyList>
-						<Property Name="PositioningType" Type="int16" Value="1"/>
-						<Property Name="Volume" Type="Real64">
-							<ValueList>
-								<Value>-19</Value>
-							</ValueList>
-						</Property>
-					</PropertyList>
+				<RandomSequenceContainer Name="Death Scream" ID="{137ED2AF-A6CA-4FBA-A08A-2069D1A15F97}" ShortID="957557336">
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56FDBADF-5B2E-4995-AEE4-2ADA769E47AB}"/>
@@ -20,24 +12,77 @@
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A838622-8FF7-4C4F-8FB6-C7AAA655610B}"/>
 						</Reference>
 					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="42 Man Screams #1_ Short Yell" ID="{CDF279F4-6163-47F5-82BA-D79E574B2715}" ShortID="760340954">
-							<Language>SFX</Language>
-							<AudioFile>42 Man Screams #1_ Short Yell.wav</AudioFile>
-						</AudioFileSource>
-					</ChildrenList>
-					<PositioningInfo>
-						<Panner Name="" ID="{41B4AC61-DF02-4DE3-842D-88E6E0F6CC61}">
-							<PropertyList>
-								<Property Name="PanX" Type="Real64" Value="-100"/>
-								<Property Name="PanY" Type="Real64" Value="0.431965442764578"/>
-							</PropertyList>
-						</Panner>
-					</PositioningInfo>
-					<ActiveSourceList>
-						<ActiveSource Name="42 Man Screams #1_ Short Yell" ID="{CDF279F4-6163-47F5-82BA-D79E574B2715}" Platform="Linked"/>
-					</ActiveSourceList>
+				</RandomSequenceContainer>
+				<Sound Name="Life Alert" ID="{7CC42BC0-F84F-4C63-9267-A3202978693B}" ShortID="659719729" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56FDBADF-5B2E-4995-AEE4-2ADA769E47AB}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A838622-8FF7-4C4F-8FB6-C7AAA655610B}"/>
+						</Reference>
+					</ReferenceList>
 				</Sound>
+				<Sound Name="Food Alert" ID="{A71116AE-83E6-4EC6-9EBB-C9CBE4AC3F83}" ShortID="1053295783" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56FDBADF-5B2E-4995-AEE4-2ADA769E47AB}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A838622-8FF7-4C4F-8FB6-C7AAA655610B}"/>
+						</Reference>
+					</ReferenceList>
+				</Sound>
+				<Sound Name="Engine Alert" ID="{5B8915B5-2C5D-4D3D-AC33-3F9C60492E3F}" ShortID="729628701" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56FDBADF-5B2E-4995-AEE4-2ADA769E47AB}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A838622-8FF7-4C4F-8FB6-C7AAA655610B}"/>
+						</Reference>
+					</ReferenceList>
+				</Sound>
+				<Sound Name="Invasion Alert" ID="{0A367DF7-B108-4F18-8EA2-7DE94293D064}" ShortID="455348001" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56FDBADF-5B2E-4995-AEE4-2ADA769E47AB}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A838622-8FF7-4C4F-8FB6-C7AAA655610B}"/>
+						</Reference>
+					</ReferenceList>
+				</Sound>
+				<Sound Name="Solar Flare Alert" ID="{A391F00F-9784-4763-B6E5-B4B27BBA542D}" ShortID="896183500" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56FDBADF-5B2E-4995-AEE4-2ADA769E47AB}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A838622-8FF7-4C4F-8FB6-C7AAA655610B}"/>
+						</Reference>
+					</ReferenceList>
+				</Sound>
+				<RandomSequenceContainer Name="Laser Fire" ID="{9E75B798-053D-4A50-9E5D-93E24935BD8A}" ShortID="646094792">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56FDBADF-5B2E-4995-AEE4-2ADA769E47AB}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A838622-8FF7-4C4F-8FB6-C7AAA655610B}"/>
+						</Reference>
+					</ReferenceList>
+				</RandomSequenceContainer>
+				<Folder Name="Ambience" ID="{36BE1545-FD0E-4404-A653-BBC5703EEFB6}" ShortID="528571876"/>
+				<Folder Name="Combat" ID="{5C9B1651-D526-4618-9430-1B73E8B5ADC7}" ShortID="202317758"/>
+				<Folder Name="Ship" ID="{B2385270-B8F9-4CF5-B879-33431C1CA4A4}" ShortID="538929223">
+					<ChildrenList>
+						<Folder Name="Engine" ID="{5D41E128-BE34-4D3B-BCA6-05E05709743F}" ShortID="732171312"/>
+						<Folder Name="Alerts" ID="{19AC362F-8D50-4A2C-9360-7FDA2D15E484}" ShortID="275398354"/>
+						<Folder Name="Room Barks" ID="{B2844EBE-A18B-45FE-B922-92576087D3A9}" ShortID="935478939"/>
+						<Folder Name="Engine_03" ID="{94287081-AA7A-4D0E-A73C-D2134CAEBC78}" ShortID="860632558"/>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
