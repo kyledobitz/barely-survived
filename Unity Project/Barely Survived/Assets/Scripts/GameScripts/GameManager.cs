@@ -6,12 +6,14 @@ public class GameManager : MonoBehaviour {
 
     public List<GameObject> livingPeople;
     public List<GardenRoom> gardenRooms;
+    public List<LifeSupportRoom> lifeSupportRooms;
     public ShipMetrics shipMetrics;
 
 	// Use this for initialization
 	void Start () {
 	    livingPeople = new List<GameObject>(GameObject.FindGameObjectsWithTag("Person"));
         gardenRooms = new List<GardenRoom>(FindObjectsOfType<GardenRoom>());
+        lifeSupportRooms = new List<LifeSupportRoom>(FindObjectsOfType<LifeSupportRoom>());
         shipMetrics = GetComponentInChildren<ShipMetrics>();
 	}
 

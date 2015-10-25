@@ -2787,6 +2787,9 @@
           <extension id="unity3d-child" />
           <extension id="unity3d-csharp-child" unsafe-code="false" language-version-module-name="" language-version-name="" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/GameManager.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/People/HealthBar.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/People/Meanders.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/People/PersonHealth.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/RotatingFrame.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/RotatingFrame.cs.meta" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/BoundRate.cs" />
@@ -2820,6 +2823,9 @@
           <extension id="unity3d-child" />
           <extension id="unity3d-csharp-child" unsafe-code="false" language-version-module-name="" language-version-name="" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/GameManager.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/People/HealthBar.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/People/Meanders.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/People/PersonHealth.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/RotatingFrame.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/RotatingFrame.cs.meta" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/BoundRate.cs" />
@@ -2853,6 +2859,9 @@
           <extension id="unity3d-child" />
           <extension id="unity3d-csharp-child" unsafe-code="false" language-version-module-name="" language-version-name="" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/GameManager.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/People/HealthBar.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/People/Meanders.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/People/PersonHealth.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/RotatingFrame.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/RotatingFrame.cs.meta" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/BoundRate.cs" />
@@ -2886,6 +2895,9 @@
           <extension id="unity3d-child" />
           <extension id="unity3d-csharp-child" unsafe-code="false" language-version-module-name="" language-version-name="" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/GameManager.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/People/HealthBar.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/People/Meanders.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/People/PersonHealth.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/RotatingFrame.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/RotatingFrame.cs.meta" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/BoundRate.cs" />
@@ -2919,6 +2931,9 @@
           <extension id="unity3d-child" />
           <extension id="unity3d-csharp-child" unsafe-code="false" language-version-module-name="" language-version-name="" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/GameManager.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/People/HealthBar.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/People/Meanders.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/People/PersonHealth.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/RotatingFrame.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/RotatingFrame.cs.meta" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/BoundRate.cs" />
@@ -2952,6 +2967,9 @@
           <extension id="unity3d-child" />
           <extension id="unity3d-csharp-child" unsafe-code="false" language-version-module-name="" language-version-name="" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/GameManager.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/People/HealthBar.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/People/Meanders.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/People/PersonHealth.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/RotatingFrame.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/RotatingFrame.cs.meta" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/BoundRate.cs" />
@@ -2985,6 +3003,9 @@
           <extension id="unity3d-child" />
           <extension id="unity3d-csharp-child" unsafe-code="false" language-version-module-name="" language-version-name="" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/GameManager.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/People/HealthBar.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/People/Meanders.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/People/PersonHealth.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/RotatingFrame.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/RotatingFrame.cs.meta" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/BoundRate.cs" />
@@ -3018,6 +3039,9 @@
           <extension id="unity3d-child" />
           <extension id="unity3d-csharp-child" unsafe-code="false" language-version-module-name="" language-version-name="" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/GameManager.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/People/HealthBar.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/People/Meanders.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/People/PersonHealth.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/RotatingFrame.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/RotatingFrame.cs.meta" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/BoundRate.cs" />
@@ -3051,6 +3075,9 @@
           <extension id="unity3d-child" />
           <extension id="unity3d-csharp-child" unsafe-code="false" language-version-module-name="" language-version-name="" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/GameManager.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/People/HealthBar.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/People/Meanders.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/People/PersonHealth.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/RotatingFrame.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/RotatingFrame.cs.meta" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/BoundRate.cs" />

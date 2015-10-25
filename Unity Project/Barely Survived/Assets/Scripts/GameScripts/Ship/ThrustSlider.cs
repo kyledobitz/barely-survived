@@ -1,4 +1,5 @@
 ﻿using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -12,6 +13,8 @@ public class ThrustSlider : MonoBehaviour {
 	void Start () {
 		_slider = GetComponent<Slider>();
         _text = GetComponentInChildren<Text>();
+        List<Text> texts = new List<Text>(GetComponentsInChildren<Text>());
+        _text = texts.Find(text => text.name == "Setting");
         _slider.onValueChanged.AddListener(SetThrust);
         _shipMetrics = FindObjectOfType<ShipMetrics>();
 	}

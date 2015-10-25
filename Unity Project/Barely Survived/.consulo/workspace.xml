@@ -16,14 +16,14 @@
     <file path="/BridgeRoom.cs" changelist="d7802ccb-17c1-48f6-8ce3-43a68fcb89cc" time="1445402790812" ignored="false" />
     <file path="/FuelEngine.cs" changelist="d7802ccb-17c1-48f6-8ce3-43a68fcb89cc" time="1445645389651" ignored="false" />
     <file path="/LifeSupportEngine.cs" changelist="d7802ccb-17c1-48f6-8ce3-43a68fcb89cc" time="1445646041540" ignored="false" />
-    <file path="/GameManager.cs" changelist="d7802ccb-17c1-48f6-8ce3-43a68fcb89cc" time="1445646193501" ignored="false" />
+    <file path="/GameManager.cs" changelist="d7802ccb-17c1-48f6-8ce3-43a68fcb89cc" time="1445782862581" ignored="false" />
     <file path="/GardenRoom.cs" changelist="d7802ccb-17c1-48f6-8ce3-43a68fcb89cc" time="1445406792583" ignored="false" />
     <file path="/FoodBar.cs" changelist="d7802ccb-17c1-48f6-8ce3-43a68fcb89cc" time="1445444674427" ignored="false" />
     <file path="/BoundSlider.cs" changelist="d7802ccb-17c1-48f6-8ce3-43a68fcb89cc" time="1445499400001" ignored="false" />
-    <file path="/ThrustSlider.cs" changelist="d7802ccb-17c1-48f6-8ce3-43a68fcb89cc" time="1445482365047" ignored="false" />
+    <file path="/ThrustSlider.cs" changelist="d7802ccb-17c1-48f6-8ce3-43a68fcb89cc" time="1445788173510" ignored="false" />
     <file path="/ThrustParticles.cs" changelist="d7802ccb-17c1-48f6-8ce3-43a68fcb89cc" time="1445485136775" ignored="false" />
     <file path="/BoundRate.cs" changelist="d7802ccb-17c1-48f6-8ce3-43a68fcb89cc" time="1445497103152" ignored="false" />
-    <file path="/LifeSupportRoom.cs" changelist="d7802ccb-17c1-48f6-8ce3-43a68fcb89cc" time="1445646130967" ignored="false" />
+    <file path="/LifeSupportRoom.cs" changelist="d7802ccb-17c1-48f6-8ce3-43a68fcb89cc" time="1445782996863" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,37 +45,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ShipMetrics.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameScripts/Ship/ShipMetrics.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="79" selection-start-line="20" selection-start-column="79" selection-end-line="20" selection-end-column="79" />
-              <folding>
-                <element signature="e#0#44#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="GameManager.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameScripts/GameManager.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="27" column="50" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
+              <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
               <folding>
                 <element signature="e#0#78#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PersonHealth.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameScripts/People/PersonHealth.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.60465115">
-              <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
-              <folding>
-                <element signature="e#0#44#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -95,21 +71,9 @@
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameScripts/Ship/BoundSlider.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="19" column="58" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
+              <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="19" selection-end-column="58" />
               <folding>
                 <element signature="e#0#145#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ThrustSlider.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameScripts/Ship/ThrustSlider.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="21" column="59" selection-start-line="21" selection-start-column="59" selection-end-line="21" selection-end-column="59" />
-              <folding>
-                <element signature="e#0#66#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -119,7 +83,7 @@
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameScripts/Ship/GardenRoom.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="16" selection-end-column="62" />
+              <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="7" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -129,9 +93,21 @@
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameScripts/Ship/FuelEngine.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="29" column="42" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
+              <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
               <folding>
                 <element signature="e#0#78#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThrustSlider.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameScripts/Ship/ThrustSlider.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.42358804">
+              <caret line="16" column="56" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
+              <folding>
+                <element signature="e#0#100#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -140,8 +116,8 @@
       <file leaf-file-name="LifeSupportEngine.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameScripts/Ship/LifeSupportEngine.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.68">
-              <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -150,10 +126,32 @@
       <file leaf-file-name="LifeSupportRoom.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameScripts/Ship/LifeSupportRoom.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+            <state vertical-scroll-proportion="-4.76">
+              <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
               <folding>
                 <element signature="e#0#78#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Meanders.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameScripts/People/Meanders.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PersonHealth.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameScripts/People/PersonHealth.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#44#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -176,17 +174,17 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/GameScripts/GardenRoom.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameScripts/PersonHealth.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameScripts/Ship/FoodBar.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GameScripts/Ship/ThrustSlider.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameScripts/Ship/ThrustParticles.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GameScripts/People/PersonHealth.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameScripts/Ship/BoundRate.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameScripts/Ship/ShipMetrics.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameScripts/Ship/BoundSlider.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameScripts/Ship/FuelEngine.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameScripts/Ship/FoodEngine.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GameScripts/Ship/LifeSupportRoom.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameScripts/People/PersonHealth.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameScripts/Ship/LifeSupportEngine.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameScripts/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameScripts/Ship/LifeSupportRoom.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameScripts/Ship/ThrustSlider.cs" />
       </list>
     </option>
   </component>
@@ -247,6 +245,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -395,7 +394,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -480,16 +478,16 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -564,6 +562,90 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameScripts/Ship/ShipMetrics.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="79" selection-start-line="20" selection-start-column="79" selection-end-line="20" selection-end-column="79" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameScripts/GameManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="50" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameScripts/Ship/FoodEngine.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="16" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameScripts/Ship/BoundSlider.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="58" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#145#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameScripts/Ship/ThrustSlider.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="59" selection-start-line="21" selection-start-column="59" selection-end-line="21" selection-end-column="59" />
+          <folding>
+            <element signature="e#0#100#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameScripts/Ship/GardenRoom.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="16" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameScripts/Ship/FuelEngine.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="42" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameScripts/Ship/LifeSupportEngine.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameScripts/Ship/LifeSupportRoom.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/GenericScripts/Sprite.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -639,16 +721,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameScripts/People/Meanders.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="24.26923">
-          <caret line="31" column="21" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameScripts/Ship/ThrustParticles.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-12.24">
@@ -669,42 +741,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameScripts/Ship/ThrustSlider.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="59" selection-start-line="21" selection-start-column="59" selection-end-line="21" selection-end-column="59" />
-          <folding>
-            <element signature="e#0#66#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameScripts/Ship/ShipMetrics.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="20" column="79" selection-start-line="20" selection-start-column="79" selection-end-line="20" selection-end-column="79" />
           <folding>
             <element signature="e#0#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameScripts/Ship/BoundSlider.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="58" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
-          <folding>
-            <element signature="e#0#145#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameScripts/Ship/FuelEngine.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="42" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#78#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -717,36 +759,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameScripts/Ship/GardenRoom.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameScripts/GameManager.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="16" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameScripts/Ship/LifeSupportEngine.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.68">
-          <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameScripts/Ship/LifeSupportRoom.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
           <folding>
             <element signature="e#0#78#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameScripts/GameManager.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameScripts/Ship/LifeSupportEngine.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="50" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameScripts/Ship/GardenRoom.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="7" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameScripts/Ship/LifeSupportRoom.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.76">
+          <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameScripts/People/Meanders.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Wwise/Deployment/Components/AkInitializer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20203735">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameScripts/Ship/FuelEngine.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
           <folding>
             <element signature="e#0#78#0" expanded="true" />
           </folding>
@@ -755,10 +823,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameScripts/People/PersonHealth.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.60465115">
-          <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
           <folding>
             <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameScripts/Ship/BoundSlider.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="19" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#145#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameScripts/Ship/ThrustSlider.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42358804">
+          <caret line="16" column="56" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#100#0" expanded="true" />
           </folding>
         </state>
       </provider>
