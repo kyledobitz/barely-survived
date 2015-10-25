@@ -24,9 +24,29 @@
 				<Event Id="2370690330" Name="stop_title"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="122047368" Language="SFX">
+					<ShortName>Somethings Happening Segment.wav</ShortName>
+					<Path>SFX\Somethings Happening Segment_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="281353303" Language="SFX">
+					<ShortName>Segment B.wav</ShortName>
+					<Path>SFX\Segment B_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="534288695" Language="SFX">
+					<ShortName>Segment A.wav</ShortName>
+					<Path>SFX\Segment A_4B8CC0C5.wem</Path>
+				</File>
 				<File Id="709327519" Language="SFX">
 					<ShortName>Space MainTheme.wav</ShortName>
 					<Path>SFX\Space MainTheme_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="755588075" Language="SFX">
+					<ShortName>Segment D.wav</ShortName>
+					<Path>SFX\Segment D_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="885815032" Language="SFX">
+					<ShortName>Danger Segment.wav</ShortName>
+					<Path>SFX\Danger Segment_4B8CC0C5.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
