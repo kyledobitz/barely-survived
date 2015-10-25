@@ -8,7 +8,7 @@
     <file path="/RotatingFrame.cs" changelist="d7802ccb-17c1-48f6-8ce3-43a68fcb89cc" time="1445357346380" ignored="false" />
     <file path="/Room.cs" changelist="d7802ccb-17c1-48f6-8ce3-43a68fcb89cc" time="1445795470085" ignored="false" />
     <file path="/Sprite.cs" changelist="d7802ccb-17c1-48f6-8ce3-43a68fcb89cc" time="1445390133182" ignored="false" />
-    <file path="/PersonHealth.cs" changelist="d7802ccb-17c1-48f6-8ce3-43a68fcb89cc" time="1445411266578" ignored="false" />
+    <file path="/PersonHealth.cs" changelist="d7802ccb-17c1-48f6-8ce3-43a68fcb89cc" time="1445809819575" ignored="false" />
     <file path="/HealthBar.cs" changelist="d7802ccb-17c1-48f6-8ce3-43a68fcb89cc" time="1445388907027" ignored="false" />
     <file path="/RoundRoom.cs" changelist="d7802ccb-17c1-48f6-8ce3-43a68fcb89cc" time="1445393419182" ignored="false" />
     <file path="/ShipMetrics.cs" changelist="d7802ccb-17c1-48f6-8ce3-43a68fcb89cc" time="1445497213558" ignored="false" />
@@ -23,7 +23,7 @@
     <file path="/ThrustSlider.cs" changelist="d7802ccb-17c1-48f6-8ce3-43a68fcb89cc" time="1445788173510" ignored="false" />
     <file path="/ThrustParticles.cs" changelist="d7802ccb-17c1-48f6-8ce3-43a68fcb89cc" time="1445485136775" ignored="false" />
     <file path="/BoundRate.cs" changelist="d7802ccb-17c1-48f6-8ce3-43a68fcb89cc" time="1445497103152" ignored="false" />
-    <file path="/LifeSupportRoom.cs" changelist="d7802ccb-17c1-48f6-8ce3-43a68fcb89cc" time="1445782996863" ignored="false" />
+    <file path="/LifeSupportRoom.cs" changelist="d7802ccb-17c1-48f6-8ce3-43a68fcb89cc" time="1445808717032" ignored="false" />
     <file path="/Selector.cs" changelist="d7802ccb-17c1-48f6-8ce3-43a68fcb89cc" time="1445798704070" ignored="false" />
     <file path="/Assigner.cs" changelist="d7802ccb-17c1-48f6-8ce3-43a68fcb89cc" time="1445797360548" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -50,8 +50,8 @@
       <file leaf-file-name="GameManager.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameScripts/GameManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.53654486">
-              <caret line="81" column="9" selection-start-line="81" selection-start-column="9" selection-end-line="81" selection-end-column="9" />
+            <state vertical-scroll-proportion="0.4722222">
+              <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
               <folding>
                 <element signature="e#0#98#0" expanded="true" />
               </folding>
@@ -63,10 +63,32 @@
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameScripts/People/PersonHealth.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+              <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
               <folding>
-                <element signature="e#0#44#0" expanded="true" />
+                <element signature="e#0#64#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LifeSupportRoom.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameScripts/Ship/LifeSupportRoom.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="20" column="94" selection-start-line="20" selection-start-column="94" selection-end-line="20" selection-end-column="94" />
+              <folding>
+                <element signature="e#0#78#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FoodEngine.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameScripts/Ship/FoodEngine.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="54" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -95,15 +117,15 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/GameScripts/Ship/LifeSupportEngine.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameScripts/Ship/ThrustSlider.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameScripts/Ship/GardenRoom.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GameScripts/Ship/LifeSupportRoom.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameScripts/Ship/BridgeRoom.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameScripts/Ship/RoundRoom.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameScripts/People/Meanders.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameScripts/Ship/Room.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameScripts/Ship/Assigner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameScripts/People/Selector.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GameScripts/People/PersonHealth.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameScripts/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameScripts/Ship/LifeSupportRoom.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameScripts/People/PersonHealth.cs" />
       </list>
     </option>
   </component>
@@ -731,16 +753,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameScripts/Ship/LifeSupportRoom.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28239202">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="11" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#78#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameScripts/Ship/RoundRoom.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.08471761">
@@ -789,26 +801,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameScripts/Ship/FoodEngine.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39534885">
-          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="16" selection-end-column="54" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="54" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameScripts/Ship/LifeSupportRoom.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="94" selection-start-line="20" selection-start-column="94" selection-end-line="20" selection-end-column="94" />
+          <folding>
+            <element signature="e#0#78#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameScripts/People/PersonHealth.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+          <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
           <folding>
-            <element signature="e#0#44#0" expanded="true" />
+            <element signature="e#0#64#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameScripts/GameManager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.53654486">
-          <caret line="81" column="9" selection-start-line="81" selection-start-column="9" selection-end-line="81" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.4722222">
+          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
           <folding>
             <element signature="e#0#98#0" expanded="true" />
           </folding>

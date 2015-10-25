@@ -16,18 +16,38 @@ MonoBehaviour:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{9C334088-B4A3-4802-A380-B05BD83FF266}'
-    m_lastTimePsrt1: 909557929
-    m_lastTimePart2: -1999446879
+    m_lastTimePsrt1: -437527098
+    m_lastTimePart2: -1999446654
     List:
-    - Name: Test
-      Path: Default Work Unit\Test
+    - Name: death_scream
+      Path: Default Work Unit\death_scream
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
-      - ElementName: Test
+      - ElementName: death_scream
         ObjectType: 3
-      ID: -1137964055
+      ID: 1652966903
       Guid: aedef65d703589418ea4f78f3cd759bb
+      maxAttenuation: 0
+    - Name: play_title
+      Path: Default Work Unit\play_title
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: play_title
+        ObjectType: 3
+      ID: -445430080
+      Guid: 1a7321e28d7dfd4ab1669804166556b0
+      maxAttenuation: 0
+    - Name: stop_title
+      Path: Default Work Unit\stop_title
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: stop_title
+        ObjectType: 3
+      ID: -1924276966
+      Guid: acb876362256ae4b84fe4b8c79fe8d17
       maxAttenuation: 0
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -47,15 +67,40 @@ MonoBehaviour:
   - PhysicalPath: Switches\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{2391D27F-D781-468C-BECC-6F12515E265F}'
-    m_lastTimePsrt1: 911276683
-    m_lastTimePart2: -1999446879
-    List: []
+    m_lastTimePsrt1: -435957138
+    m_lastTimePart2: -1999446654
+    List:
+    - Name: music_switch
+      Path: Default Work Unit\music_switch
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: music_switch
+        ObjectType: 11
+      ID: -1570097955
+      Guid: f7b395795dcdae4c9be00f3de7e32295
+      values:
+      - danger
+      - normal
+      - occurence
+      ValueIcons:
+      - ElementName: danger
+        ObjectType: 10
+      - ElementName: normal
+        ObjectType: 10
+      - ElementName: occurence
+        ObjectType: 10
+      valueIDs: 2442d1f898c42745b2683742
+      ValueGuids:
+      - bytes: ca68230100a9e14196ad3382f9d803be
+      - bytes: b7f24b5191859243be0cbf78ec9b33b8
+      - bytes: ad55385592f0234a8d9b5b85d3e7341b
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{46ABC31B-41E4-4146-88AE-370CF27B9214}'
-    m_lastTimePsrt1: 911276683
-    m_lastTimePart2: -1999446879
+    m_lastTimePsrt1: -435997108
+    m_lastTimePart2: -1999446654
     List:
     - Name: Test
       Path: Default Work Unit\Test
