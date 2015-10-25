@@ -75,6 +75,14 @@
 				</RandomSequenceContainer>
 				<Folder Name="Ambience" ID="{36BE1545-FD0E-4404-A653-BBC5703EEFB6}" ShortID="528571876"/>
 				<Folder Name="Combat" ID="{5C9B1651-D526-4618-9430-1B73E8B5ADC7}" ShortID="202317758"/>
+				<Folder Name="Ship" ID="{B2385270-B8F9-4CF5-B879-33431C1CA4A4}" ShortID="538929223">
+					<ChildrenList>
+						<Folder Name="Engine" ID="{5D41E128-BE34-4D3B-BCA6-05E05709743F}" ShortID="732171312"/>
+						<Folder Name="Alerts" ID="{19AC362F-8D50-4A2C-9360-7FDA2D15E484}" ShortID="275398354"/>
+						<Folder Name="Room Barks" ID="{B2844EBE-A18B-45FE-B922-92576087D3A9}" ShortID="935478939"/>
+						<Folder Name="Engine_03" ID="{94287081-AA7A-4D0E-A73C-D2134CAEBC78}" ShortID="860632558"/>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
