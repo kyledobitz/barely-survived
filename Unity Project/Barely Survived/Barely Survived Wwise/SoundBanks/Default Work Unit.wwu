@@ -5,7 +5,9 @@
 			<ChildrenList>
 				<SoundBank Name="Test" ID="{CBB1E4CF-CD2E-4FEB-BA0A-2AEA4A02258B}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Test" ID="{5DF6DEAE-3570-4189-8EA4-F78F3CD759BB}" WorkUnitID="{9C334088-B4A3-4802-A380-B05BD83FF266}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="play_title" ID="{E221731A-7D8D-4AFD-B166-9804166556B0}" WorkUnitID="{9C334088-B4A3-4802-A380-B05BD83FF266}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="stop_title" ID="{3676B8AC-5622-4BAE-84FE-4B8C79FE8D17}" WorkUnitID="{9C334088-B4A3-4802-A380-B05BD83FF266}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="death_scream" ID="{5DF6DEAE-3570-4189-8EA4-F78F3CD759BB}" WorkUnitID="{9C334088-B4A3-4802-A380-B05BD83FF266}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

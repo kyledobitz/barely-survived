@@ -13,8 +13,26 @@ namespace AK
 {
     namespace EVENTS
     {
-        static const AkUniqueID TEST = 3157003241U;
+        static const AkUniqueID DEATH_SCREAM = 1652966903U;
+        static const AkUniqueID PLAY_TITLE = 3849537216U;
+        static const AkUniqueID STOP_TITLE = 2370690330U;
     } // namespace EVENTS
+
+    namespace SWITCHES
+    {
+        namespace MUSIC_SWITCH
+        {
+            static const AkUniqueID GROUP = 2724869341U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID DANGER = 4174463524U;
+                static const AkUniqueID NORMAL = 1160234136U;
+                static const AkUniqueID OCCURENCE = 1110927538U;
+            } // namespace SWITCH
+        } // namespace MUSIC_SWITCH
+
+    } // namespace SWITCHES
 
     namespace GAME_PARAMETERS
     {

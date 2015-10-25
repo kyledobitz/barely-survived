@@ -4,7 +4,7 @@
 		<Language ID="0">
 			<Bank Name="Init" Hash="3958984000" StreamHash="157587662" Timestamp="130900521791807704"/>
 			<Bank Name="Main" Hash="1410415722" StreamHash="157587662" Timestamp="130900521791777702"/>
-			<Bank Name="Test" Hash="2756453808" StreamHash="157587662" Timestamp="130900567129440868"/>
+			<Bank Name="Test" Hash="3154663486" StreamHash="157587662" Timestamp="130902790962913084"/>
 		</Language>
 	</Platform>
 </IncrementalBankBuild>

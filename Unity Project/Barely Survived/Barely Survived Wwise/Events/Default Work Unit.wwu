@@ -3,12 +3,45 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{9C334088-B4A3-4802-A380-B05BD83FF266}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Test" ID="{5DF6DEAE-3570-4189-8EA4-F78F3CD759BB}">
+				<Event Name="death_scream" ID="{5DF6DEAE-3570-4189-8EA4-F78F3CD759BB}">
 					<ChildrenList>
 						<Action Name="Play" ID="{40509D72-DC2B-48FF-A592-6D7240F225F1}" ShortID="1054083856" Type="Play" Scope="One" Global="false">
 							<ElementList>
 								<Element ID="{68C2F21D-BBE3-4184-B821-9910C52B929C}" Global="false">
-									<ObjectRef Name="42 Man Screams #1_ Short Yell" ID="{9C06C483-5813-4DC4-A030-60E62DD5039C}" WorkUnitID="{EB400B2F-90AB-48D2-9CFE-3E5FFEDA3A1C}"/>
+									<ObjectRef Name="Death Scream" ID="{137ED2AF-A6CA-4FBA-A08A-2069D1A15F97}" WorkUnitID="{EB400B2F-90AB-48D2-9CFE-3E5FFEDA3A1C}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="play_title" ID="{E221731A-7D8D-4AFD-B166-9804166556B0}">
+					<ChildrenList>
+						<Action Name="Play" ID="{A88CED24-B163-41E5-B8CE-F749F73CAEA7}" ShortID="555234309" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{7FC8B4A8-EE71-4BE5-AF68-8D17A9C06C67}" Global="false">
+									<ObjectRef Name="Main Theme" ID="{1A70EC80-B037-4D8B-A9E2-BF330A03AC18}" WorkUnitID="{27BFFBB2-EA82-44B7-A6CA-BD161AC0FA24}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="stop_title" ID="{3676B8AC-5622-4BAE-84FE-4B8C79FE8D17}">
+					<ChildrenList>
+						<Action Name="Set Voice Volume" ID="{9F6AD0E9-A247-451C-B872-810345C9AE85}" ShortID="930429157" Type="ChangeVolume" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="3"/>
+								<Property Name="Volume" Type="Real64" Value="-96"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{CE03887D-759F-45E8-B6D1-58A2D7431CCB}" Global="false">
+									<ObjectRef Name="Main Theme" ID="{1A70EC80-B037-4D8B-A9E2-BF330A03AC18}" WorkUnitID="{27BFFBB2-EA82-44B7-A6CA-BD161AC0FA24}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{67774465-59D7-470F-9ABE-691AB753120D}" ShortID="622931403" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{C554DA2F-1CEE-4BAC-8B68-91D9C7C91938}" Global="false">
+									<ObjectRef Name="Music Master" ID="{97B2CC5F-DD67-4BD7-BDA4-5A1161C0DF9B}" WorkUnitID="{27BFFBB2-EA82-44B7-A6CA-BD161AC0FA24}"/>
 								</Element>
 							</ElementList>
 						</Action>

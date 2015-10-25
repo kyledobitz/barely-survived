@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="70">
-	<ValidationCacheItem File="F:\Gitstuff\barely-survived\Unity Project\Barely Survived\Barely Survived Wwise\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="614171560" DateHigh="30477664"/>
+	<ValidationCacheItem File="F:\Gitstuff\barely-survived\Unity Project\Barely Survived\Barely Survived Wwise\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="548474226" DateHigh="30478031"/>
 	<ValidationCacheItem File="F:\Gitstuff\barely-survived\Unity Project\Barely Survived\Barely Survived Wwise\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects.wwu" DateLow="1765865728" DateHigh="30449207"/>
 	<ValidationCacheItem File="F:\Gitstuff\barely-survived\Unity Project\Barely Survived\Barely Survived Wwise\Actor-Mixer Hierarchy\Factory Synth One.wwu" DateLow="1765865728" DateHigh="30449207"/>
 	<ValidationCacheItem File="F:\Gitstuff\barely-survived\Unity Project\Barely Survived\Barely Survived Wwise\Attenuations\Default Work Unit.wwu" DateLow="669083234" DateHigh="30477582"/>
-	<ValidationCacheItem File="F:\Gitstuff\barely-survived\Unity Project\Barely Survived\Barely Survived Wwise\Barely Survived.Phantom Frequency.wsettings" DateLow="620311911" DateHigh="30477664"/>
+	<ValidationCacheItem File="F:\Gitstuff\barely-survived\Unity Project\Barely Survived\Barely Survived Wwise\Barely Survived.Phantom Frequency.wsettings" DateLow="3955629104" DateHigh="30478031"/>
 	<ValidationCacheItem File="F:\Gitstuff\barely-survived\Unity Project\Barely Survived\Barely Survived Wwise\Barely Survived.wproj" DateLow="3823373133" DateHigh="30477653"/>
 	<ValidationCacheItem File="F:\Gitstuff\barely-survived\Unity Project\Barely Survived\Barely Survived Wwise\Control Surface Sessions\Default Work Unit.wwu" DateLow="669043232" DateHigh="30477582"/>
 	<ValidationCacheItem File="F:\Gitstuff\barely-survived\Unity Project\Barely Survived\Barely Survived Wwise\Conversion Settings\Default Work Unit.wwu" DateLow="669063233" DateHigh="30477582"/>
@@ -12,10 +12,10 @@
 	<ValidationCacheItem File="F:\Gitstuff\barely-survived\Unity Project\Barely Survived\Barely Survived Wwise\Dynamic Dialogue\Default Work Unit.wwu" DateLow="669183240" DateHigh="30477582"/>
 	<ValidationCacheItem File="F:\Gitstuff\barely-survived\Unity Project\Barely Survived\Barely Survived Wwise\Effects\Default Work Unit.wwu" DateLow="669133237" DateHigh="30477582"/>
 	<ValidationCacheItem File="F:\Gitstuff\barely-survived\Unity Project\Barely Survived\Barely Survived Wwise\Effects\Factory Effects.wwu" DateLow="1765865728" DateHigh="30449207"/>
-	<ValidationCacheItem File="F:\Gitstuff\barely-survived\Unity Project\Barely Survived\Barely Survived Wwise\Events\Default Work Unit.wwu" DateLow="3823403134" DateHigh="30477653"/>
+	<ValidationCacheItem File="F:\Gitstuff\barely-survived\Unity Project\Barely Survived\Barely Survived Wwise\Events\Default Work Unit.wwu" DateLow="1097978931" DateHigh="30478029"/>
 	<ValidationCacheItem File="F:\Gitstuff\barely-survived\Unity Project\Barely Survived\Barely Survived Wwise\Game Parameters\Default Work Unit.wwu" DateLow="669113236" DateHigh="30477582"/>
 	<ValidationCacheItem File="F:\Gitstuff\barely-survived\Unity Project\Barely Survived\Barely Survived Wwise\Game Parameters\Factory SoundSeed Air Game Syncs.wwu" DateLow="1765865728" DateHigh="30449207"/>
-	<ValidationCacheItem File="F:\Gitstuff\barely-survived\Unity Project\Barely Survived\Barely Survived Wwise\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="669083234" DateHigh="30477582"/>
+	<ValidationCacheItem File="F:\Gitstuff\barely-survived\Unity Project\Barely Survived\Barely Survived Wwise\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="548544230" DateHigh="30478031"/>
 	<ValidationCacheItem File="F:\Gitstuff\barely-survived\Unity Project\Barely Survived\Barely Survived Wwise\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="669173239" DateHigh="30477582"/>
 	<ValidationCacheItem File="F:\Gitstuff\barely-survived\Unity Project\Barely Survived\Barely Survived Wwise\Mixing Sessions\Default Work Unit.wwu" DateLow="669033231" DateHigh="30477582"/>
 	<ValidationCacheItem File="F:\Gitstuff\barely-survived\Unity Project\Barely Survived\Barely Survived Wwise\Modulators\Default Work Unit.wwu" DateLow="669053232" DateHigh="30477582"/>
