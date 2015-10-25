@@ -7,6 +7,9 @@ TagManager:
   - Person
   - ThrustParticleSystem
   - ThrustParticles
+  - Gameplay
+  - Logo
+  - Credits
   layers:
   - Default
   - TransparentFX

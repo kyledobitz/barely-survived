@@ -18,10 +18,12 @@ public class Assigner : MonoBehaviour {
         _gameManager = FindObjectOfType<GameManager>();
         _button = GetComponent<Button>();
         _button.onClick.AddListener(Assigned);
+
     }
 
     // Update is called once per frame
     void Update () {
+
         var pos = target.position + offset;
         Vector3 screenPos = _camera.WorldToScreenPoint(pos);
         _rectTransform.position = screenPos;

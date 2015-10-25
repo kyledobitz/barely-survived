@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class Selector : MonoBehaviour {
 
-    public Transform target;
+    public GameObject target;
     public Vector3 offset = Vector3.zero;
 
     private Camera _camera;
@@ -24,13 +24,13 @@ public class Selector : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        var pos = target.position + offset;
+        var pos = target.transform.position + offset;
         Vector3 screenPos = _camera.WorldToScreenPoint(pos);
 		_rectTransform.position = screenPos;
 	}
 
     void Selected(){
-		_gameManager.selected = target.gameObject;
+		_gameManager.selected = target;
     }
 
     void Assigned(){
