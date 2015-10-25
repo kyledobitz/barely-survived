@@ -45,12 +45,14 @@ public class GameManager : MonoBehaviour {
     public void CheckPhaseTransitions(){
         switch (phase){
             case Phase.LOGO :
+				AkSoundEngine.SetState("music_state", "start_menu");
                 Debug.Log("logoEndTime: " + _logoEndTime);
                 if (Time.time > _logoEndTime && Input.anyKeyDown) {
                     phase = Phase.BUILD;
                 }
             break;
             case Phase.BUILD :
+				AkSoundEngine.SetState("music_state", "normal");
                 phase = Phase.PLAY;
             break;
             case Phase.PLAY :

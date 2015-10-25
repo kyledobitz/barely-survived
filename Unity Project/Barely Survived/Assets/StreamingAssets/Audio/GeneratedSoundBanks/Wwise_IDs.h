@@ -18,21 +18,22 @@ namespace AK
         static const AkUniqueID STOP_TITLE = 2370690330U;
     } // namespace EVENTS
 
-    namespace SWITCHES
+    namespace STATES
     {
-        namespace MUSIC_SWITCH
+        namespace MUSIC_STATE
         {
-            static const AkUniqueID GROUP = 2724869341U;
+            static const AkUniqueID GROUP = 3826569560U;
 
-            namespace SWITCH
+            namespace STATE
             {
                 static const AkUniqueID DANGER = 4174463524U;
+                static const AkUniqueID EVENT = 3161415855U;
                 static const AkUniqueID NORMAL = 1160234136U;
-                static const AkUniqueID OCCURENCE = 1110927538U;
-            } // namespace SWITCH
-        } // namespace MUSIC_SWITCH
+                static const AkUniqueID START_MENU = 2977420043U;
+            } // namespace STATE
+        } // namespace MUSIC_STATE
 
-    } // namespace SWITCHES
+    } // namespace STATES
 
     namespace BANKS
     {

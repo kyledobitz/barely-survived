@@ -60,41 +60,49 @@ MonoBehaviour:
   - PhysicalPath: States\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{5AF7F9DE-3768-42F7-BEC5-666B04B91E7E}'
-    m_lastTimePsrt1: 911276683
-    m_lastTimePart2: -1999446879
-    List: []
+    m_lastTimePsrt1: -73460682
+    m_lastTimePart2: -1999446644
+    List:
+    - Name: music_state
+      Path: Default Work Unit\music_state
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: music_state
+        ObjectType: 9
+      ID: -468397736
+      Guid: 033896aa2854f248bc45bb0ba6784965
+      values:
+      - danger
+      - event
+      - None
+      - normal
+      - start_menu
+      ValueIcons:
+      - ElementName: danger
+        ObjectType: 8
+      - ElementName: event
+        ObjectType: 8
+      - ElementName: None
+        ObjectType: 8
+      - ElementName: normal
+        ObjectType: 8
+      - ElementName: start_menu
+        ObjectType: 8
+      valueIDs: 2442d1f8af606fbcdb3ba32c98c427450bd377b1
+      ValueGuids:
+      - bytes: 872c4c72ef26434ab6f47fd2daa5e99a
+      - bytes: 09ea419909c4a8458f43dbb7ab356246
+      - bytes: 3838325e899bc74bb57acbf877ef41fd
+      - bytes: 189d73270e2dc1438e23e3b9b34bd485
+      - bytes: c34821b17c6e034abb0266f8d9ef9ffd
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{2391D27F-D781-468C-BECC-6F12515E265F}'
-    m_lastTimePsrt1: -435957138
-    m_lastTimePart2: -1999446654
-    List:
-    - Name: music_switch
-      Path: Default Work Unit\music_switch
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: music_switch
-        ObjectType: 11
-      ID: -1570097955
-      Guid: f7b395795dcdae4c9be00f3de7e32295
-      values:
-      - danger
-      - normal
-      - occurence
-      ValueIcons:
-      - ElementName: danger
-        ObjectType: 10
-      - ElementName: normal
-        ObjectType: 10
-      - ElementName: occurence
-        ObjectType: 10
-      valueIDs: 2442d1f898c42745b2683742
-      ValueGuids:
-      - bytes: ca68230100a9e14196ad3382f9d803be
-      - bytes: b7f24b5191859243be0cbf78ec9b33b8
-      - bytes: ad55385592f0234a8d9b5b85d3e7341b
+    m_lastTimePsrt1: -73480683
+    m_lastTimePart2: -1999446644
+    List: []
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
@@ -114,10 +122,13 @@ MonoBehaviour:
   ExpandedItems:
   - /Barely Survived
   - /Barely Survived/Events
-  - /Barely Survived/Events/Default Work Unit
+  - /Barely Survived/SoundBanks
+  - /Barely Survived/States
+  - /Barely Survived/States/Default Work Unit
+  - /Barely Survived/States/Default Work Unit/music_state
   m_lastPopulateTimePsrt1: 0
   m_lastPopulateTimePart2: 0
-  autoPopulateEnabled: 1
+  autoPopulateEnabled: 0
   basePath: Audio\GeneratedSoundBanks
   language: English(US)
   defaultPoolSize: 4096
