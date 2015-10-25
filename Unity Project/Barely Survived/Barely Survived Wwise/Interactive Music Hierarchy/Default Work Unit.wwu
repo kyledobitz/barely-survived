@@ -29,6 +29,11 @@
 								<MusicSegment Name="Segment B" ID="{3A174D91-7E62-47CB-ADA1-D7173E09AE10}" ShortID="980128668">
 									<PropertyList>
 										<Property Name="EndPosition" Type="Real64" Value="34365.5328798186"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>4</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -149,6 +154,11 @@
 								<MusicSegment Name="Segment D" ID="{F557D82E-D302-46B9-B5E6-E3F103924947}" ShortID="673128206">
 									<PropertyList>
 										<Property Name="EndPosition" Type="Real64" Value="40980.4081632653"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -446,6 +456,11 @@
 								<MusicSegment Name="Somethings Happening Segment" ID="{24C8651C-DE4A-49E3-900B-471BCC8EF065}" ShortID="179472375">
 									<PropertyList>
 										<Property Name="EndPosition" Type="Real64" Value="36143.2199546485"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-1</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -549,6 +564,11 @@
 								<MusicSegment Name="Danger Segment" ID="{756C06BC-EA55-4A79-BD88-FE715FF325CE}" ShortID="447916345">
 									<PropertyList>
 										<Property Name="EndPosition" Type="Real64" Value="37729.6145124717"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>8</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -652,6 +672,11 @@
 								<MusicSegment Name="Space MainTheme" ID="{232657FA-2DA0-4D79-B901-6974E11169F7}" ShortID="114475481">
 									<PropertyList>
 										<Property Name="EndPosition" Type="Real64" Value="62813.0325814537"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -805,7 +830,25 @@
 							</PropertyList>
 							<ChildrenList>
 								<MusicTransition Name="Transition" ID="{DA2856F1-A1B6-4D2F-AE99-B1CA1CC13885}">
-									<TransitionInfo/>
+									<PropertyList>
+										<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+										<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+									</PropertyList>
+									<TransitionInfo>
+										<SourceFadeOut>
+											<MusicFade Name="Source Fade-out" ID="{3725B6AE-40FE-4698-8D53-CE8A6863E3D7}">
+												<PropertyList>
+													<Property Name="FadeCurve" Type="int16" Value="3"/>
+													<Property Name="FadeTime" Type="Real64" Value="1"/>
+													<Property Name="FadeType" Type="int16" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</SourceFadeOut>
+										<DestinationFadeIn>
+											<MusicFade Name="Destination Fade-in" ID="{7B144F08-042A-436A-AC29-02B01720B641}"/>
+										</DestinationFadeIn>
+									</TransitionInfo>
 								</MusicTransition>
 							</ChildrenList>
 							<TransitionInfo/>

@@ -14,12 +14,12 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="play_title" ID="{E221731A-7D8D-4AFD-B166-9804166556B0}">
+				<Event Name="play_music" ID="{E221731A-7D8D-4AFD-B166-9804166556B0}">
 					<ChildrenList>
 						<Action Name="Play" ID="{A88CED24-B163-41E5-B8CE-F749F73CAEA7}" ShortID="555234309" Type="Play" Scope="One" Global="false">
 							<ElementList>
 								<Element ID="{7FC8B4A8-EE71-4BE5-AF68-8D17A9C06C67}" Global="false">
-									<ObjectRef Name="Main Theme" ID="{1A70EC80-B037-4D8B-A9E2-BF330A03AC18}" WorkUnitID="{27BFFBB2-EA82-44B7-A6CA-BD161AC0FA24}"/>
+									<ObjectRef Name="Music Master" ID="{97B2CC5F-DD67-4BD7-BDA4-5A1161C0DF9B}" WorkUnitID="{27BFFBB2-EA82-44B7-A6CA-BD161AC0FA24}"/>
 								</Element>
 							</ElementList>
 						</Action>
