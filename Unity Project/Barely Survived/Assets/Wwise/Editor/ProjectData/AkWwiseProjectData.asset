@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6f8beb78c8673a42afda3780bf40d09, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  CurrentPluginConfig: Profile
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{9C334088-B4A3-4802-A380-B05BD83FF266}'
+    m_lastTimePsrt1: 106659966
+    m_lastTimePart2: -1999447187
+    List:
+    - Name: Test
+      Path: Default Work Unit\Test
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Test
+        ObjectType: 3
+      ID: -1137964055
+      Guid: aedef65d703589418ea4f78f3cd759bb
+      maxAttenuation: 0
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{7A838622-8FF7-4C4F-8FB6-C7AAA655610B}'
+    m_lastTimePsrt1: 1247397367
+    m_lastTimePart2: -1999447259
+    List: []
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{5AF7F9DE-3768-42F7-BEC5-666B04B91E7E}'
+    m_lastTimePsrt1: 1247387367
+    m_lastTimePart2: -1999447259
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{2391D27F-D781-468C-BECC-6F12515E265F}'
+    m_lastTimePsrt1: 1247367366
+    m_lastTimePart2: -1999447259
+    List: []
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{46ABC31B-41E4-4146-88AE-370CF27B9214}'
+    m_lastTimePsrt1: 106669967
+    m_lastTimePart2: -1999447187
+    List:
+    - Name: Test
+      Path: Default Work Unit\Test
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Test
+        ObjectType: 7
+      ID: -1137964055
+      Guid: cfe4b1cb2ecdeb4fba0a2aea4a02258b
+  ExpandedItems:
+  - /Barely Survived
+  - /Barely Survived/Events
+  - /Barely Survived/Events/Default Work Unit
+  m_lastPopulateTimePsrt1: 0
+  m_lastPopulateTimePart2: 0
+  autoPopulateEnabled: 1
+  basePath: Audio\GeneratedSoundBanks
+  language: English(US)
+  defaultPoolSize: 4096
+  lowerPoolSize: 2048
+  streamingPoolSize: 1024
+  memoryCutoffThreshold: .949999988

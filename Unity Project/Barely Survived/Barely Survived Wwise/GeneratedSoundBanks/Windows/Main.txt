@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1652966903	death_scream			\Default Work Unit\death_scream	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	1052212836	42 Man Screams #1_ Short Yell	F:\Gitstuff\barely-survived\Unity Project\Barely Survived\Barely Survived Wwise\.cache\Windows\SFX\42 Man Screams #1_ Short Yell_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\42 Man Screams #1_ Short Yell		1063168
+

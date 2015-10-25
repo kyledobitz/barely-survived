@@ -17,6 +17,7 @@ public class PersonHealth : MonoBehaviour {
 		health += - Time.deltaTime * 10;
         if(health <= 0){
             LeaveCorpse();
+			AkSoundEngine.PostEvent("Test", gameObject);
         }
 	}
 
