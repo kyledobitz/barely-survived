@@ -5,15 +5,15 @@ using UnityEngine;
 public class LifeSupportRoom : MonoBehaviour {
     public float lifeSupportProduction = 0f;
     public float lifeSupportProductionRate = 10f;
-    public List<GameObject> lifeSupporters;
+    private Room _room;
 
 	// Use this for initialization
 	void Start () {
-	
+        _room = GetComponent<Room>();
 	}
 	
 	// Update is called once per frame
 	void Update () {
-        lifeSupportProduction = (float) lifeSupporters.Count * lifeSupportProductionRate;
+        lifeSupportProduction = (float) _room.members.Count * lifeSupportProductionRate;
 	}
 }

@@ -3,7 +3,7 @@ using System.Collections;
 
 public class Meanders : MonoBehaviour {
 
-	public RoundRoom currentRoom;
+	public Room currentRoom;
 	public float speed = 2.0f;
 
 	private Vector3 destination{

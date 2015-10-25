@@ -14,7 +14,7 @@ public class PersonHealth : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		health += - Time.deltaTime * 10;
+//		health += - Time.deltaTime * 10;
         if(health <= 0){
             LeaveCorpse();
 			AkSoundEngine.PostEvent("Test", gameObject);

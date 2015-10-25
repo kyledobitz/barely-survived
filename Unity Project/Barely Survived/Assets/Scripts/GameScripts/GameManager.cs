@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour {
     public List<GardenRoom> gardenRooms;
     public List<LifeSupportRoom> lifeSupportRooms;
     public ShipMetrics shipMetrics;
+    public GameObject selected;
 
 	// Use this for initialization
 	void Start () {

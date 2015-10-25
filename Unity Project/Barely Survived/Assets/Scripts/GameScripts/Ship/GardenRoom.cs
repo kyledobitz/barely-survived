@@ -5,15 +5,16 @@ using UnityEngine;
 public class GardenRoom : MonoBehaviour {
     public float foodGrowth = 0f;
     public float foodGrowthRate = 10f;
-    public List<GameObject> gardeners;
+
+    private Room _room;
 
 	// Use this for initialization
 	void Start () {
-	
+	    _room = GetComponent<Room>();
 	}
 	
 	// Update is called once per frame
 	void Update () {
-        foodGrowth = (float) gardeners.Count * foodGrowthRate;
+        foodGrowth = (float) _room.members.Count * foodGrowthRate;
     }
 }

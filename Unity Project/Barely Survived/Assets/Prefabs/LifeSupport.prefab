@@ -8,7 +8,8 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 416798}
-  - 114: {fileID: 11402574}
+  - 114: {fileID: 11486980}
+  - 114: {fileID: 11447596}
   m_Layer: 0
   m_Name: LifeSupport
   m_TagString: Untagged
@@ -277,7 +278,7 @@ Light:
   m_ShadowRadius: 0
   m_ShadowAngle: 0
   m_AreaSize: {x: 1, y: 1}
---- !u!114 &11402574
+--- !u!114 &11447596
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -285,10 +286,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 125254}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0c6468f6f88cfa4caf4a648e52f4b19, type: 3}
+  m_Script: {fileID: 11500000, guid: 2d30b634f830d1f44820d634a292b089, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  radius: 4.5
+  members: []
+  radius: 4
+--- !u!114 &11486980
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 125254}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32b58bd1852682641a942ba8d01f0edc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lifeSupportProduction: 0
+  lifeSupportProductionRate: 10
 --- !u!136 &13650224
 CapsuleCollider:
   m_ObjectHideFlags: 1

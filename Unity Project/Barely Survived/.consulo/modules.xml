@@ -2790,8 +2790,10 @@
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/People/HealthBar.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/People/Meanders.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/People/PersonHealth.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/People/Selector.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/RotatingFrame.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/RotatingFrame.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/Assigner.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/BoundRate.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/BoundSlider.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/BridgeRoom.cs" />
@@ -2800,6 +2802,7 @@
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/GardenRoom.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/LifeSupportEngine.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/LifeSupportRoom.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/Room.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/RoundRoom.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/ShipMetrics.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/ThrustParticles.cs" />
@@ -2826,8 +2829,10 @@
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/People/HealthBar.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/People/Meanders.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/People/PersonHealth.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/People/Selector.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/RotatingFrame.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/RotatingFrame.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/Assigner.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/BoundRate.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/BoundSlider.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/BridgeRoom.cs" />
@@ -2836,6 +2841,7 @@
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/GardenRoom.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/LifeSupportEngine.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/LifeSupportRoom.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/Room.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/RoundRoom.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/ShipMetrics.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/ThrustParticles.cs" />
@@ -2862,8 +2868,10 @@
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/People/HealthBar.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/People/Meanders.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/People/PersonHealth.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/People/Selector.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/RotatingFrame.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/RotatingFrame.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/Assigner.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/BoundRate.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/BoundSlider.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/BridgeRoom.cs" />
@@ -2872,6 +2880,7 @@
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/GardenRoom.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/LifeSupportEngine.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/LifeSupportRoom.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/Room.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/RoundRoom.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/ShipMetrics.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/ThrustParticles.cs" />
@@ -2898,8 +2907,10 @@
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/People/HealthBar.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/People/Meanders.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/People/PersonHealth.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/People/Selector.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/RotatingFrame.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/RotatingFrame.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/Assigner.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/BoundRate.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/BoundSlider.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/BridgeRoom.cs" />
@@ -2908,6 +2919,7 @@
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/GardenRoom.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/LifeSupportEngine.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/LifeSupportRoom.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/Room.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/RoundRoom.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/ShipMetrics.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/ThrustParticles.cs" />
@@ -2934,8 +2946,10 @@
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/People/HealthBar.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/People/Meanders.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/People/PersonHealth.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/People/Selector.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/RotatingFrame.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/RotatingFrame.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/Assigner.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/BoundRate.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/BoundSlider.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/BridgeRoom.cs" />
@@ -2944,6 +2958,7 @@
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/GardenRoom.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/LifeSupportEngine.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/LifeSupportRoom.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/Room.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/RoundRoom.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/ShipMetrics.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/ThrustParticles.cs" />
@@ -2970,8 +2985,10 @@
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/People/HealthBar.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/People/Meanders.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/People/PersonHealth.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/People/Selector.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/RotatingFrame.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/RotatingFrame.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/Assigner.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/BoundRate.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/BoundSlider.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/BridgeRoom.cs" />
@@ -2980,6 +2997,7 @@
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/GardenRoom.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/LifeSupportEngine.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/LifeSupportRoom.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/Room.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/RoundRoom.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/ShipMetrics.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/ThrustParticles.cs" />
@@ -3006,8 +3024,10 @@
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/People/HealthBar.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/People/Meanders.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/People/PersonHealth.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/People/Selector.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/RotatingFrame.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/RotatingFrame.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/Assigner.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/BoundRate.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/BoundSlider.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/BridgeRoom.cs" />
@@ -3016,6 +3036,7 @@
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/GardenRoom.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/LifeSupportEngine.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/LifeSupportRoom.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/Room.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/RoundRoom.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/ShipMetrics.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/ThrustParticles.cs" />
@@ -3042,8 +3063,10 @@
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/People/HealthBar.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/People/Meanders.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/People/PersonHealth.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/People/Selector.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/RotatingFrame.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/RotatingFrame.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/Assigner.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/BoundRate.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/BoundSlider.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/BridgeRoom.cs" />
@@ -3052,6 +3075,7 @@
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/GardenRoom.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/LifeSupportEngine.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/LifeSupportRoom.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/Room.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/RoundRoom.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/ShipMetrics.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/ThrustParticles.cs" />
@@ -3078,8 +3102,10 @@
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/People/HealthBar.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/People/Meanders.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/People/PersonHealth.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/People/Selector.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/RotatingFrame.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/RotatingFrame.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/Assigner.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/BoundRate.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/BoundSlider.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/BridgeRoom.cs" />
@@ -3088,6 +3114,7 @@
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/GardenRoom.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/LifeSupportEngine.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/LifeSupportRoom.cs" />
+          <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/Room.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/RoundRoom.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/ShipMetrics.cs" />
           <content url="file://$USER_HOME$/Documents/Workspace/barely-survived/Unity Project/Barely Survived/Assets/Scripts/GameScripts/Ship/ThrustParticles.cs" />
