@@ -24,7 +24,18 @@ public class Meanders : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		nextDecisionTime = Time.time;	
+		nextDecisionTime = Time.time;
+        Room[] rooms = FindObjectsOfType<Room>();
+        Room closestRoom = null;
+        float closestDistance = float.MaxValue;
+        foreach(Room room in rooms){
+            float distance = (room.transform.position - transform.position).sqrMagnitude;
+            if(distance < closestDistance){
+                closestDistance = distance;
+                closestRoom = room;
+            }
+        }
+        currentRoom = closestRoom;
 	}
 	
 	// Update is called once per frame

@@ -4,7 +4,7 @@
     <list default="true" id="d7802ccb-17c1-48f6-8ce3-43a68fcb89cc" name="Default" comment="" />
     <ignored path=".consulo/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <file path="/Meanders.cs" changelist="d7802ccb-17c1-48f6-8ce3-43a68fcb89cc" time="1445795447939" ignored="false" />
+    <file path="/Meanders.cs" changelist="d7802ccb-17c1-48f6-8ce3-43a68fcb89cc" time="1445810805223" ignored="false" />
     <file path="/RotatingFrame.cs" changelist="d7802ccb-17c1-48f6-8ce3-43a68fcb89cc" time="1445357346380" ignored="false" />
     <file path="/Room.cs" changelist="d7802ccb-17c1-48f6-8ce3-43a68fcb89cc" time="1445795470085" ignored="false" />
     <file path="/Sprite.cs" changelist="d7802ccb-17c1-48f6-8ce3-43a68fcb89cc" time="1445390133182" ignored="false" />
@@ -47,14 +47,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GameManager.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GameManager.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameScripts/GameManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4722222">
+            <state vertical-scroll-proportion="-10.461538">
               <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
               <folding>
                 <element signature="e#0#98#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Meanders.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameScripts/People/Meanders.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.21597096">
+              <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -119,13 +129,13 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/GameScripts/Ship/GardenRoom.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameScripts/Ship/BridgeRoom.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameScripts/Ship/RoundRoom.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GameScripts/People/Meanders.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameScripts/Ship/Room.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameScripts/Ship/Assigner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameScripts/People/Selector.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameScripts/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameScripts/Ship/LifeSupportRoom.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameScripts/People/PersonHealth.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameScripts/People/Meanders.cs" />
       </list>
     </option>
   </component>
@@ -761,14 +771,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameScripts/People/Meanders.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.059027776">
-          <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameScripts/Ship/Room.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8023256">
@@ -829,11 +831,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameScripts/GameManager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4722222">
+        <state vertical-scroll-proportion="-10.461538">
           <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
           <folding>
             <element signature="e#0#98#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameScripts/People/Meanders.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21597096">
+          <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>
