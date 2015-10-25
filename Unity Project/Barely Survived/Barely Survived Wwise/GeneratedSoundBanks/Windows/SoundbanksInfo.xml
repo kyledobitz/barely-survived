@@ -20,7 +20,7 @@
 			<Path>Test.bnk</Path>
 			<IncludedEvents>
 				<Event Id="1652966903" Name="death_scream"/>
-				<Event Id="3849537216" Name="play_title"/>
+				<Event Id="2932040671" Name="play_music"/>
 				<Event Id="2370690330" Name="stop_title"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>

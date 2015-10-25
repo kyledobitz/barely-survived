@@ -1,7 +1,7 @@
 Event	ID	Name			Wwise Object Path	Notes
 	1652966903	death_scream			\Default Work Unit\death_scream	
 	2370690330	stop_title			\Default Work Unit\stop_title	
-	3849537216	play_title			\Default Work Unit\play_title	
+	2932040671	play_music			\Default Work Unit\play_music	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	122047368	Somethings Happening Segment	F:\Gitstuff\barely-survived\Unity Project\Barely Survived\Barely Survived Wwise\.cache\Windows\SFX\Somethings Happening Segment_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Music Master\Something's Happening\Somethings Happening Segment\Somethings Happening Segment		5423168

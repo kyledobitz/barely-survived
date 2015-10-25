@@ -16,8 +16,8 @@ MonoBehaviour:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{9C334088-B4A3-4802-A380-B05BD83FF266}'
-    m_lastTimePsrt1: -437527098
-    m_lastTimePart2: -1999446654
+    m_lastTimePsrt1: 1508041585
+    m_lastTimePart2: -1999446638
     List:
     - Name: death_scream
       Path: Default Work Unit\death_scream
@@ -29,14 +29,14 @@ MonoBehaviour:
       ID: 1652966903
       Guid: aedef65d703589418ea4f78f3cd759bb
       maxAttenuation: 0
-    - Name: play_title
-      Path: Default Work Unit\play_title
+    - Name: play_music
+      Path: Default Work Unit\play_music
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
-      - ElementName: play_title
+      - ElementName: play_music
         ObjectType: 3
-      ID: -445430080
+      ID: -1362926625
       Guid: 1a7321e28d7dfd4ab1669804166556b0
       maxAttenuation: 0
     - Name: stop_title
@@ -107,8 +107,8 @@ MonoBehaviour:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{46ABC31B-41E4-4146-88AE-370CF27B9214}'
-    m_lastTimePsrt1: -435997108
-    m_lastTimePart2: -1999446654
+    m_lastTimePsrt1: -336913940
+    m_lastTimePart2: -1999446639
     List:
     - Name: Test
       Path: Default Work Unit\Test
@@ -122,10 +122,7 @@ MonoBehaviour:
   ExpandedItems:
   - /Barely Survived
   - /Barely Survived/Events
-  - /Barely Survived/SoundBanks
-  - /Barely Survived/States
-  - /Barely Survived/States/Default Work Unit
-  - /Barely Survived/States/Default Work Unit/music_state
+  - /Barely Survived/Events/Default Work Unit
   m_lastPopulateTimePsrt1: 0
   m_lastPopulateTimePart2: 0
   autoPopulateEnabled: 0

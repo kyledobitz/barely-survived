@@ -56,6 +56,7 @@ public class GameManager : MonoBehaviour {
                 phase = Phase.PLAY;
             break;
             case Phase.PLAY :
+				AkSoundEngine.SetState("music_state", "normal");
                 if(livingPeople.Count < 1){
                     phase = Phase.CREDITS;
                     _creditsEndTime = Time.time + creditsTime;
