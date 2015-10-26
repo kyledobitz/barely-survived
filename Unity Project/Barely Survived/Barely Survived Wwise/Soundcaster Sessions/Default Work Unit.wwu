@@ -10,9 +10,15 @@
 							<Position X="0" Y="0"/>
 						</Module>
 					</ModuleList>
-					<RTPCValueList ShowAll="true"/>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Speed" ID="{E8049F69-E48A-4B05-8659-B961F77E6316}"/>
+							<Value>0</Value>
+						</RTPCValue>
+					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="start_menu" ID="{B12148C3-6E7C-4A03-BB02-66F8D9EF9FFD}"/>
+						<CurrentStateRef Name="high" ID="{CFCBEF56-774D-4E5D-9CBE-A5B0E8A9E728}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>

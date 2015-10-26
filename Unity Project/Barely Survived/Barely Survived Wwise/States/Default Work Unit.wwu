@@ -12,6 +12,16 @@
 						<State Name="danger" ID="{724C2C87-26EF-4A43-B6F4-7FD2DAA5E99A}"/>
 					</ChildrenList>
 				</StateGroup>
+				<StateGroup Name="engine" ID="{0757A0AC-B7C6-45CE-85BA-95A3C64C3E2A}">
+					<ChildrenList>
+						<State Name="None" ID="{D04B6218-FA58-472A-83E1-2684ECEA200B}"/>
+						<State Name="drift" ID="{2539AAF5-65E0-4D3E-8995-D5AC90328CA7}"/>
+						<State Name="low" ID="{A5CCF0F8-9EB6-4A3D-8A64-A06C49CC7B79}"/>
+						<State Name="med" ID="{F3DCF018-35FD-46C1-B6AB-CCEDF56871B7}"/>
+						<State Name="high" ID="{CFCBEF56-774D-4E5D-9CBE-A5B0E8A9E728}"/>
+						<State Name="warp" ID="{9072CA58-EDFF-4C1B-BB00-25639867030A}"/>
+					</ChildrenList>
+				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</States>

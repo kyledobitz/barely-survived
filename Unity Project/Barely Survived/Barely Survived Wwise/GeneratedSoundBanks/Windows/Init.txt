@@ -1,7 +1,14 @@
 State Group	ID	Name			Wwise Object Path	Notes
+	268529915	engine			\Default Work Unit\engine	
 	3826569560	music_state			\Default Work Unit\music_state	
 
 State	ID	Name	State Group			Notes
+	545371365	low	engine			
+	748895195	None	engine			
+	981339021	med	engine			
+	1873893307	warp	engine			
+	2067748134	drift	engine			
+	3550808449	high	engine			
 	748895195	None	music_state			
 	1160234136	normal	music_state			
 	2977420043	start_menu	music_state			

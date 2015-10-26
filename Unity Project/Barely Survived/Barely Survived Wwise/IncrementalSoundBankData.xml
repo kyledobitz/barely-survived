@@ -2,9 +2,9 @@
 <IncrementalBankBuild Version="4" Flags="878078161">
 	<Platform GUID="{6B92336D-E383-4469-9936-0865B28879DD}">
 		<Language ID="0">
-			<Bank Name="Init" Hash="3072974362" StreamHash="157587662" Timestamp="130902862774774954"/>
+			<Bank Name="Init" Hash="4217354514" StreamHash="157587662" Timestamp="130903016491417043"/>
 			<Bank Name="Main" Hash="1410415722" StreamHash="157587662" Timestamp="130900521791777702"/>
-			<Bank Name="Test" Hash="1583242642" StreamHash="157587662" Timestamp="130902893277699622"/>
+			<Bank Name="Test" Hash="3929832190" StreamHash="157587662" Timestamp="130903016491367041"/>
 		</Language>
 	</Platform>
 </IncrementalBankBuild>

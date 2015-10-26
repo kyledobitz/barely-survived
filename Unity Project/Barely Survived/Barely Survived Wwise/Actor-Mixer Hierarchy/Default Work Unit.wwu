@@ -4,6 +4,9 @@
 		<WorkUnit Name="Default Work Unit" ID="{EB400B2F-90AB-48D2-9CFE-3E5FFEDA3A1C}" PersistMode="Standalone">
 			<ChildrenList>
 				<RandomSequenceContainer Name="Death Scream" ID="{137ED2AF-A6CA-4FBA-A08A-2069D1A15F97}" ShortID="957557336">
+					<ExcludedPlatformList>
+						<Platform>Windows</Platform>
+					</ExcludedPlatformList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56FDBADF-5B2E-4995-AEE4-2ADA769E47AB}"/>
@@ -14,6 +17,9 @@
 					</ReferenceList>
 				</RandomSequenceContainer>
 				<Sound Name="Life Alert" ID="{7CC42BC0-F84F-4C63-9267-A3202978693B}" ShortID="659719729" Type="SoundFX">
+					<ExcludedPlatformList>
+						<Platform>Windows</Platform>
+					</ExcludedPlatformList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56FDBADF-5B2E-4995-AEE4-2ADA769E47AB}"/>
@@ -24,6 +30,9 @@
 					</ReferenceList>
 				</Sound>
 				<Sound Name="Food Alert" ID="{A71116AE-83E6-4EC6-9EBB-C9CBE4AC3F83}" ShortID="1053295783" Type="SoundFX">
+					<ExcludedPlatformList>
+						<Platform>Windows</Platform>
+					</ExcludedPlatformList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56FDBADF-5B2E-4995-AEE4-2ADA769E47AB}"/>
@@ -34,6 +43,9 @@
 					</ReferenceList>
 				</Sound>
 				<Sound Name="Engine Alert" ID="{5B8915B5-2C5D-4D3D-AC33-3F9C60492E3F}" ShortID="729628701" Type="SoundFX">
+					<ExcludedPlatformList>
+						<Platform>Windows</Platform>
+					</ExcludedPlatformList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56FDBADF-5B2E-4995-AEE4-2ADA769E47AB}"/>
@@ -44,6 +56,9 @@
 					</ReferenceList>
 				</Sound>
 				<Sound Name="Invasion Alert" ID="{0A367DF7-B108-4F18-8EA2-7DE94293D064}" ShortID="455348001" Type="SoundFX">
+					<ExcludedPlatformList>
+						<Platform>Windows</Platform>
+					</ExcludedPlatformList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56FDBADF-5B2E-4995-AEE4-2ADA769E47AB}"/>
@@ -54,6 +69,9 @@
 					</ReferenceList>
 				</Sound>
 				<Sound Name="Solar Flare Alert" ID="{A391F00F-9784-4763-B6E5-B4B27BBA542D}" ShortID="896183500" Type="SoundFX">
+					<ExcludedPlatformList>
+						<Platform>Windows</Platform>
+					</ExcludedPlatformList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56FDBADF-5B2E-4995-AEE4-2ADA769E47AB}"/>
@@ -64,6 +82,9 @@
 					</ReferenceList>
 				</Sound>
 				<RandomSequenceContainer Name="Laser Fire" ID="{9E75B798-053D-4A50-9E5D-93E24935BD8A}" ShortID="646094792">
+					<ExcludedPlatformList>
+						<Platform>Windows</Platform>
+					</ExcludedPlatformList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56FDBADF-5B2E-4995-AEE4-2ADA769E47AB}"/>
@@ -73,14 +94,455 @@
 						</Reference>
 					</ReferenceList>
 				</RandomSequenceContainer>
-				<Folder Name="Ambience" ID="{36BE1545-FD0E-4404-A653-BBC5703EEFB6}" ShortID="528571876"/>
-				<Folder Name="Combat" ID="{5C9B1651-D526-4618-9430-1B73E8B5ADC7}" ShortID="202317758"/>
+				<Folder Name="Ambience" ID="{36BE1545-FD0E-4404-A653-BBC5703EEFB6}" ShortID="528571876">
+					<ExcludedPlatformList>
+						<Platform>Windows</Platform>
+					</ExcludedPlatformList>
+				</Folder>
+				<Folder Name="Combat" ID="{5C9B1651-D526-4618-9430-1B73E8B5ADC7}" ShortID="202317758">
+					<ExcludedPlatformList>
+						<Platform>Windows</Platform>
+					</ExcludedPlatformList>
+				</Folder>
 				<Folder Name="Ship" ID="{B2385270-B8F9-4CF5-B879-33431C1CA4A4}" ShortID="538929223">
 					<ChildrenList>
-						<Folder Name="Engine" ID="{5D41E128-BE34-4D3B-BCA6-05E05709743F}" ShortID="732171312"/>
+						<Folder Name="Engine" ID="{5D41E128-BE34-4D3B-BCA6-05E05709743F}" ShortID="732171312">
+							<ChildrenList>
+								<SwitchContainer Name="Engine Speed" ID="{CB6B1587-D72F-4CEE-BE48-3AB6BF17BFD4}" ShortID="897289805">
+									<PropertyList>
+										<Property Name="SwitchBehavior" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56FDBADF-5B2E-4995-AEE4-2ADA769E47AB}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A838622-8FF7-4C4F-8FB6-C7AAA655610B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="low" ID="{49AE70AA-24E0-4D68-A1D3-7C090140D861}" ShortID="464185633">
+											<Comment>						</Comment>
+											<PropertyList>
+												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="2"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56FDBADF-5B2E-4995-AEE4-2ADA769E47AB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A838622-8FF7-4C4F-8FB6-C7AAA655610B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="engine low" ID="{FE14D9A5-071B-46A3-87F5-73F18654D9FC}" ShortID="985695004" Type="SoundFX">
+													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56FDBADF-5B2E-4995-AEE4-2ADA769E47AB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A838622-8FF7-4C4F-8FB6-C7AAA655610B}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="engine low" ID="{BDC71DD7-903E-47C3-AB0A-2B7BC36B9791}" ShortID="627696508">
+															<Language>SFX</Language>
+															<AudioFile>engine low.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="engine low" ID="{BDC71DD7-903E-47C3-AB0A-2B7BC36B9791}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="med" ID="{044FEB7E-ABDC-4495-89DD-7F1CD0AF4260}" ShortID="260591745">
+											<PropertyList>
+												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="2"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56FDBADF-5B2E-4995-AEE4-2ADA769E47AB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A838622-8FF7-4C4F-8FB6-C7AAA655610B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="engine med" ID="{3BA5E2C8-19C6-4E71-898F-C332DAEA905E}" ShortID="706877889" Type="SoundFX">
+													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56FDBADF-5B2E-4995-AEE4-2ADA769E47AB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A838622-8FF7-4C4F-8FB6-C7AAA655610B}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="engine med" ID="{5F771ACF-026D-4921-9802-7A10A6B7F115}" ShortID="645097301">
+															<Language>SFX</Language>
+															<AudioFile>engine med.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="engine med" ID="{5F771ACF-026D-4921-9802-7A10A6B7F115}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="high" ID="{BEAEBD7F-9101-4A8E-84EC-2B4067084DE7}" ShortID="1041924931">
+											<PropertyList>
+												<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="4"/>
+												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.1"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-2</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56FDBADF-5B2E-4995-AEE4-2ADA769E47AB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A838622-8FF7-4C4F-8FB6-C7AAA655610B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="engine high" ID="{D3FD90FA-BE0C-4825-AE07-D00064198DB7}" ShortID="586486900" Type="SoundFX">
+													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56FDBADF-5B2E-4995-AEE4-2ADA769E47AB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A838622-8FF7-4C4F-8FB6-C7AAA655610B}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="engine high" ID="{74F24B30-713F-4C0B-A78E-AC77E8F72445}" ShortID="403669993">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																<Property Name="LoopEnd" Type="Real64" Value="0.7"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>engine high.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="engine high" ID="{74F24B30-713F-4C0B-A78E-AC77E8F72445}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="hyper" ID="{2936BE41-A22E-4166-B7B8-A0804BF05A2D}" ShortID="397740784">
+											<PropertyList>
+												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="2"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56FDBADF-5B2E-4995-AEE4-2ADA769E47AB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A838622-8FF7-4C4F-8FB6-C7AAA655610B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="engine hypers" ID="{20E0DFAC-A57C-4B16-81AD-2221DFCF1923}" ShortID="122612109" Type="SoundFX">
+													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56FDBADF-5B2E-4995-AEE4-2ADA769E47AB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A838622-8FF7-4C4F-8FB6-C7AAA655610B}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="engine hypers" ID="{FD8D4800-636C-44BF-88BE-83BC347922F9}" ShortID="590484245">
+															<Language>SFX</Language>
+															<AudioFile>engine hypers.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="engine hypers" ID="{FD8D4800-636C-44BF-88BE-83BC347922F9}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<Playlist>
+												<ItemRef Name="engine hypers" ID="{20E0DFAC-A57C-4B16-81AD-2221DFCF1923}"/>
+											</Playlist>
+										</RandomSequenceContainer>
+										<Sound Name="engine rumble" ID="{917D7780-C463-45CE-8E4B-67D2DA7FBA49}" ShortID="239380004" Type="SoundFX">
+											<PropertyList>
+												<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+												<Property Name="MaxSoundPerInstance" Type="int16">
+													<ValueList>
+														<Value>1</Value>
+													</ValueList>
+												</Property>
+												<Property Name="OverLimitBehavior" Type="int16" Value="1"/>
+												<Property Name="OverrideMaxSoundInstance" Type="bool" Value="True"/>
+												<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
+												<Property Name="UseMaxSoundPerInstance" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56FDBADF-5B2E-4995-AEE4-2ADA769E47AB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A838622-8FF7-4C4F-8FB6-C7AAA655610B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="engine rumble" ID="{6F3B2F59-7BB4-4FA9-96A9-FACD58212E7B}" ShortID="771419035">
+													<Language>SFX</Language>
+													<AudioFile>engine rumble.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo>
+														<StateGroupRef Name="engine" ID="{0757A0AC-B7C6-45CE-85BA-95A3C64C3E2A}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="med" ID="{F3DCF018-35FD-46C1-B6AB-CCEDF56871B7}"/>
+														<State Name="Custom State" ID="{41D5513B-E192-49CC-8AAB-DE12D578B2A0}" ShortID="660899350">
+															<PropertyList>
+																<Property Name="Lowpass" Type="int16" Value="-10"/>
+																<Property Name="Volume" Type="Real64" Value="-30"/>
+															</PropertyList>
+														</State>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="high" ID="{CFCBEF56-774D-4E5D-9CBE-A5B0E8A9E728}"/>
+														<State Name="Custom State" ID="{A4EF84B8-61C5-4D25-B791-FEB61C7C011B}" ShortID="342689488">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-20"/>
+															</PropertyList>
+														</State>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="warp" ID="{9072CA58-EDFF-4C1B-BB00-25639867030A}"/>
+														<State Name="Custom State" ID="{56AA31A3-D68E-45F3-B8EB-F6A5CFC7DEE2}" ShortID="122328157">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-10"/>
+															</PropertyList>
+														</State>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="drift" ID="{2539AAF5-65E0-4D3E-8995-D5AC90328CA7}"/>
+														<State Name="Custom State" ID="{B25182BC-C9AF-45CA-9366-49554BBBE3B7}" ShortID="516401662">
+															<PropertyList>
+																<Property Name="Lowpass" Type="int16" Value="-100"/>
+																<Property Name="Volume" Type="Real64" Value="-96"/>
+															</PropertyList>
+														</State>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="low" ID="{A5CCF0F8-9EB6-4A3D-8A64-A06C49CC7B79}"/>
+														<State Name="Custom State" ID="{505A0406-7C4E-49BE-969D-28B0FB49E943}" ShortID="424501851">
+															<PropertyList>
+																<Property Name="Lowpass" Type="int16" Value="-20"/>
+																<Property Name="Volume" Type="Real64" Value="-40"/>
+															</PropertyList>
+														</State>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="engine rumble" ID="{6F3B2F59-7BB4-4FA9-96A9-FACD58212E7B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="engine hyper loop clean" ID="{E59F3547-9EB4-4253-A2B7-E58E10F81A37}" ShortID="317899206" Type="SoundFX">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-6</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56FDBADF-5B2E-4995-AEE4-2ADA769E47AB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7A838622-8FF7-4C4F-8FB6-C7AAA655610B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="engine hyper loop clean" ID="{F1A2619C-0533-4C38-A8BB-442BAD5911AB}" ShortID="903352726">
+													<Language>SFX</Language>
+													<AudioFile>engine hyper loop clean.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="engine hyper loop clean" ID="{F1A2619C-0533-4C38-A8BB-442BAD5911AB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<GroupingInfo>
+										<GroupRef Name="engine" ID="{0757A0AC-B7C6-45CE-85BA-95A3C64C3E2A}"/>
+										<DefaultSwitchRef Name="drift" ID="{2539AAF5-65E0-4D3E-8995-D5AC90328CA7}"/>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="hyper" ID="{2936BE41-A22E-4166-B7B8-A0804BF05A2D}"/>
+												<PropertyList>
+													<Property Name="FadeInTime" Type="Real64">
+														<ValueList>
+															<Value>1</Value>
+														</ValueList>
+													</Property>
+													<Property Name="FadeOutTime" Type="Real64">
+														<ValueList>
+															<Value>0.5</Value>
+														</ValueList>
+													</Property>
+													<Property Name="FirstOccurenceOnly" Type="bool" Value="True"/>
+												</PropertyList>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="engine hyper loop clean" ID="{E59F3547-9EB4-4253-A2B7-E58E10F81A37}"/>
+												<PropertyList>
+													<Property Name="FadeInTime" Type="Real64">
+														<ValueList>
+															<Value>1</Value>
+														</ValueList>
+													</Property>
+													<Property Name="FadeOutTime" Type="Real64">
+														<ValueList>
+															<Value>1</Value>
+														</ValueList>
+													</Property>
+													<Property Name="FirstOccurenceOnly" Type="bool" Value="True"/>
+												</PropertyList>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="med" ID="{044FEB7E-ABDC-4495-89DD-7F1CD0AF4260}"/>
+												<PropertyList>
+													<Property Name="FadeInTime" Type="Real64">
+														<ValueList>
+															<Value>1</Value>
+														</ValueList>
+													</Property>
+													<Property Name="FadeOutTime" Type="Real64">
+														<ValueList>
+															<Value>0.5</Value>
+														</ValueList>
+													</Property>
+													<Property Name="FirstOccurenceOnly" Type="bool" Value="True"/>
+												</PropertyList>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="high" ID="{BEAEBD7F-9101-4A8E-84EC-2B4067084DE7}"/>
+												<PropertyList>
+													<Property Name="FadeInTime" Type="Real64">
+														<ValueList>
+															<Value>1</Value>
+														</ValueList>
+													</Property>
+													<Property Name="FadeOutTime" Type="Real64">
+														<ValueList>
+															<Value>0.5</Value>
+														</ValueList>
+													</Property>
+													<Property Name="FirstOccurenceOnly" Type="bool" Value="True"/>
+												</PropertyList>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="engine rumble" ID="{917D7780-C463-45CE-8E4B-67D2DA7FBA49}"/>
+												<PropertyList>
+													<Property Name="FadeInTime" Type="Real64">
+														<ValueList>
+															<Value>1</Value>
+														</ValueList>
+													</Property>
+													<Property Name="FadeOutTime" Type="Real64">
+														<ValueList>
+															<Value>1</Value>
+														</ValueList>
+													</Property>
+													<Property Name="FirstOccurenceOnly" Type="bool" Value="True"/>
+												</PropertyList>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="low" ID="{49AE70AA-24E0-4D68-A1D3-7C090140D861}"/>
+												<PropertyList>
+													<Property Name="FadeInTime" Type="Real64">
+														<ValueList>
+															<Value>1</Value>
+														</ValueList>
+													</Property>
+													<Property Name="FadeOutTime" Type="Real64">
+														<ValueList>
+															<Value>0.5</Value>
+														</ValueList>
+													</Property>
+													<Property Name="FirstOccurenceOnly" Type="bool" Value="True"/>
+												</PropertyList>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="med" ID="{F3DCF018-35FD-46C1-B6AB-CCEDF56871B7}"/>
+												<ItemList>
+													<ItemRef Name="med" ID="{044FEB7E-ABDC-4495-89DD-7F1CD0AF4260}"/>
+													<ItemRef Name="engine rumble" ID="{917D7780-C463-45CE-8E4B-67D2DA7FBA49}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="high" ID="{CFCBEF56-774D-4E5D-9CBE-A5B0E8A9E728}"/>
+												<ItemList>
+													<ItemRef Name="high" ID="{BEAEBD7F-9101-4A8E-84EC-2B4067084DE7}"/>
+													<ItemRef Name="engine rumble" ID="{917D7780-C463-45CE-8E4B-67D2DA7FBA49}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="warp" ID="{9072CA58-EDFF-4C1B-BB00-25639867030A}"/>
+												<ItemList>
+													<ItemRef Name="engine hyper loop clean" ID="{E59F3547-9EB4-4253-A2B7-E58E10F81A37}"/>
+													<ItemRef Name="hyper" ID="{2936BE41-A22E-4166-B7B8-A0804BF05A2D}"/>
+													<ItemRef Name="engine rumble" ID="{917D7780-C463-45CE-8E4B-67D2DA7FBA49}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="low" ID="{A5CCF0F8-9EB6-4A3D-8A64-A06C49CC7B79}"/>
+												<ItemList>
+													<ItemRef Name="low" ID="{49AE70AA-24E0-4D68-A1D3-7C090140D861}"/>
+													<ItemRef Name="engine rumble" ID="{917D7780-C463-45CE-8E4B-67D2DA7FBA49}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
+									</GroupingInfo>
+								</SwitchContainer>
+							</ChildrenList>
+						</Folder>
 						<Folder Name="Alerts" ID="{19AC362F-8D50-4A2C-9360-7FDA2D15E484}" ShortID="275398354"/>
 						<Folder Name="Room Barks" ID="{B2844EBE-A18B-45FE-B922-92576087D3A9}" ShortID="935478939"/>
-						<Folder Name="Engine_03" ID="{94287081-AA7A-4D0E-A73C-D2134CAEBC78}" ShortID="860632558"/>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

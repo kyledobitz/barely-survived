@@ -20,6 +20,20 @@ namespace AK
 
     namespace STATES
     {
+        namespace ENGINE
+        {
+            static const AkUniqueID GROUP = 268529915U;
+
+            namespace STATE
+            {
+                static const AkUniqueID DRIFT = 2067748134U;
+                static const AkUniqueID HIGH = 3550808449U;
+                static const AkUniqueID LOW = 545371365U;
+                static const AkUniqueID MED = 981339021U;
+                static const AkUniqueID WARP = 1873893307U;
+            } // namespace STATE
+        } // namespace ENGINE
+
         namespace MUSIC_STATE
         {
             static const AkUniqueID GROUP = 3826569560U;
@@ -34,6 +48,11 @@ namespace AK
         } // namespace MUSIC_STATE
 
     } // namespace STATES
+
+    namespace GAME_PARAMETERS
+    {
+        static const AkUniqueID SPEED = 640949982U;
+    } // namespace GAME_PARAMETERS
 
     namespace BANKS
     {
