@@ -27,5 +27,6 @@ public class ThrustSlider : MonoBehaviour {
 
     void SetThrust(float thrust){
         _shipMetrics.thrustSetting = (FuelEngine.ThrustSetting) thrust;
+        _shipMetrics.thrustSetting.ToString();
     }
 }

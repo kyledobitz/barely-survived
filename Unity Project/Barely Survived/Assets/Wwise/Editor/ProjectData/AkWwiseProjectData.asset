@@ -60,9 +60,46 @@ MonoBehaviour:
   - PhysicalPath: States\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{5AF7F9DE-3768-42F7-BEC5-666B04B91E7E}'
-    m_lastTimePsrt1: -292974481
-    m_lastTimePart2: -1999446631
+    m_lastTimePsrt1: -1902053989
+    m_lastTimePart2: -1999446597
     List:
+    - Name: engine
+      Path: Default Work Unit\engine
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: engine
+        ObjectType: 9
+      ID: 268529915
+      Guid: aca05707c6b7ce4585ba95a3c64c3e2a
+      values:
+      - drift
+      - high
+      - low
+      - med
+      - None
+      - warp
+      ValueIcons:
+      - ElementName: drift
+        ObjectType: 8
+      - ElementName: high
+        ObjectType: 8
+      - ElementName: low
+        ObjectType: 8
+      - ElementName: med
+        ObjectType: 8
+      - ElementName: None
+        ObjectType: 8
+      - ElementName: warp
+        ObjectType: 8
+      valueIDs: 26553f7b8109a5d3e5b481208d0b7e3adb3ba32cbb57b16f
+      ValueGuids:
+      - bytes: f5aa3925e0653e4d8995d5ac90328ca7
+      - bytes: 56efcbcf4d775d4e9cbea5b0e8a9e728
+      - bytes: f8f0cca5b69e3d4a8a64a06c49cc7b79
+      - bytes: 18f0dcf3fd35c146b6abccedf56871b7
+      - bytes: 18624bd058fa2a4783e12684ecea200b
+      - bytes: 58ca7290ffed1b4cbb0025639867030a
     - Name: music_state
       Path: Default Work Unit\music_state
       PathAndIcons:

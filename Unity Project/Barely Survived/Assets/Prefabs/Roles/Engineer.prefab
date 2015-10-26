@@ -214,6 +214,7 @@ GameObject:
   - 114: {fileID: 11492030}
   - 114: {fileID: 11480608}
   - 114: {fileID: 11458648}
+  - 114: {fileID: 11416108}
   m_Layer: 0
   m_Name: Engineer
   m_TagString: Person
@@ -858,6 +859,18 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &11416108
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 152506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c53f4e8a5721cb1418fd9086d14af696, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  repairRate: 10
 --- !u!114 &11455370
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -79,12 +79,20 @@ public class GameManager : MonoBehaviour {
         }
     }
 
+    void SpawnAsteroids(){
+        if(Time.time - _spawner.lastAsteroidTime > _spawner.asteroidPeriod){
+            GameObject asteroid = (GameObject) Instantiate(_spawner.asteroidPrefab);
+            _spawner.lastAsteroidTime = Time.time;
+        }
+    }
+
     public void ImplementPhase(){
         _logo.SetActive(phase == Phase.LOGO);
         _gameplay.SetActive(phase == Phase.PLAY);
         if(phase == Phase.PLAY) {
             TrimDeadPeople();
             ManageSelectorVisibility();
+            SpawnAsteroids();
         }
         _credits.SetActive(phase == Phase.CREDITS);
     }

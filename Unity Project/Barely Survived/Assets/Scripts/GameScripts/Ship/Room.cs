@@ -5,6 +5,7 @@ using UnityEngine;
 public class Room : MonoBehaviour {
     public List<GameObject> members;
     public float radius;
+    public float health = 100f;
 
     // Use this for initialization
     void Start () {
@@ -13,6 +14,13 @@ public class Room : MonoBehaviour {
 
     // Update is called once per frame
     void Update () {
+//        health -= 10f*Time.deltaTime;
+        if(health < 0) {
+            foreach (GameObject member in members) {
+                Destroy(member);
+            }
+            Destroy(gameObject);
+        }
     }
 
     public Vector2 getRandomSpot(){
@@ -34,7 +42,16 @@ public class Room : MonoBehaviour {
 
     public void Assign(GameObject assignee){
         Meanders meanderer = assignee.GetComponent<Meanders>();
+        if(meanderer.currentRoom != null)
+            meanderer.currentRoom.members.Remove(meanderer.gameObject);
         meanderer.currentRoom = this;
         members.Add(assignee);
+    }
+
+    public void AsteroidImpact(float damage){
+        health -= damage;
+        foreach (GameObject member in members){
+            member.GetComponent<PersonHealth>().health -= damage;
+        }
     }
 }

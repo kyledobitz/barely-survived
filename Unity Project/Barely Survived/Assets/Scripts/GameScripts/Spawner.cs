@@ -23,7 +23,14 @@ public class Spawner : MonoBehaviour {
     public float roomWidth = 10f;
 
     private GameObject _gameplay;
-    private List<Room> _rooms;
+    public List<Room> _rooms;
+
+    public GameObject asteroidPrefab;
+    public float lastAsteroidTime;
+    public float asteroidPeriod = 3f;
+
+    void Update(){
+    }
 
     void Awake(){
         _gameplay = GameObject.FindGameObjectWithTag("Gameplay");
@@ -82,5 +89,4 @@ public class Spawner : MonoBehaviour {
         }
         return roomSpots;
     }
-
 }

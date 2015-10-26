@@ -59,8 +59,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fuel: 0
   fuelRate: 0
-  startingFuel: 100
+  distanceTraveled: 0
+  speed: 0
+  startingFuel: 1000
   thrustSetting: 0
+  mediumCompletionTime: 600
 --- !u!114 &11453344
 MonoBehaviour:
   m_ObjectHideFlags: 1
