@@ -1,13 +1,38 @@
 Event	ID	Name			Wwise Object Path	Notes
-	1652966903	death_scream			\Default Work Unit\death_scream	
 	2370690330	stop_title			\Default Work Unit\stop_title	
+	2862969430	engine_start			\Default Work Unit\engine_start	
 	2932040671	play_music			\Default Work Unit\play_music	
+	3509916502	engine_stop			\Default Work Unit\engine_stop	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	268529915	engine			\Default Work Unit\engine	
+
+State	ID	Name	State Group			Notes
+	545371365	low	engine			
+	748895195	None	engine			
+	981339021	med	engine			
+	1873893307	warp	engine			
+	2067748134	drift	engine			
+	3550808449	high	engine			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	122328157	warp	engine	\Actor-Mixer Hierarchy\Default Work Unit\Ship\Engine\Engine Speed\engine rumble		
+	342689488	high	engine	\Actor-Mixer Hierarchy\Default Work Unit\Ship\Engine\Engine Speed\engine rumble		
+	424501851	low	engine	\Actor-Mixer Hierarchy\Default Work Unit\Ship\Engine\Engine Speed\engine rumble		
+	516401662	drift	engine	\Actor-Mixer Hierarchy\Default Work Unit\Ship\Engine\Engine Speed\engine rumble		
+	660899350	med	engine	\Actor-Mixer Hierarchy\Default Work Unit\Ship\Engine\Engine Speed\engine rumble		
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	122047368	Somethings Happening Segment	F:\Gitstuff\barely-survived\Unity Project\Barely Survived\Barely Survived Wwise\.cache\Windows\SFX\Somethings Happening Segment_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Music Master\Something's Happening\Somethings Happening Segment\Somethings Happening Segment		5423168
 	281353303	Segment B	F:\Gitstuff\barely-survived\Unity Project\Barely Survived\Barely Survived Wwise\.cache\Windows\SFX\Segment B_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Music Master\Normal Condition\Segment B\Segment B		6062144
+	403669993	engine high	F:\Gitstuff\barely-survived\Unity Project\Barely Survived\Barely Survived Wwise\.cache\Windows\SFX\engine high_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ship\Engine\Engine Speed\high\engine high		123544
 	534288695	Segment A	F:\Gitstuff\barely-survived\Unity Project\Barely Survived\Barely Survived Wwise\.cache\Windows\SFX\Segment A_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Music Master\Normal Condition\Segment A\Segment A		5849152
+	590484245	engine hypers	F:\Gitstuff\barely-survived\Unity Project\Barely Survived\Barely Survived Wwise\.cache\Windows\SFX\engine hypers_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ship\Engine\Engine Speed\hyper\engine hypers		723308
+	627696508	engine low	F:\Gitstuff\barely-survived\Unity Project\Barely Survived\Barely Survived Wwise\.cache\Windows\SFX\engine low_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ship\Engine\Engine Speed\low\engine low		391640
+	645097301	engine med	F:\Gitstuff\barely-survived\Unity Project\Barely Survived\Barely Survived Wwise\.cache\Windows\SFX\engine med_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ship\Engine\Engine Speed\med\engine med		571272
 	709327519	Space MainTheme	F:\Gitstuff\barely-survived\Unity Project\Barely Survived\Barely Survived Wwise\.cache\Windows\SFX\Space MainTheme_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Music Master\Main Theme\Space MainTheme\Space MainTheme		10207296
 	755588075	Segment D	F:\Gitstuff\barely-survived\Unity Project\Barely Survived\Barely Survived Wwise\.cache\Windows\SFX\Segment D_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Music Master\Normal Condition\Segment D\Segment D		6488128
+	771419035	engine rumble	F:\Gitstuff\barely-survived\Unity Project\Barely Survived\Barely Survived Wwise\.cache\Windows\SFX\engine rumble_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ship\Engine\Engine Speed\engine rumble		2557864
 	885815032	Danger Segment	F:\Gitstuff\barely-survived\Unity Project\Barely Survived\Barely Survived Wwise\.cache\Windows\SFX\Danger Segment_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Music Master\Danger Danger\Danger Segment\Danger Segment		5914688
+	903352726	engine hyper loop clean	F:\Gitstuff\barely-survived\Unity Project\Barely Survived\Barely Survived Wwise\.cache\Windows\SFX\engine hyper loop clean_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ship\Engine\Engine Speed\engine hyper loop clean		511628
 
