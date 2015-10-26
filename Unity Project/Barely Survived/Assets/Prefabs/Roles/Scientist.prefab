@@ -243,6 +243,7 @@ GameObject:
   - 4: {fileID: 495686}
   - 114: {fileID: 11402400}
   - 114: {fileID: 11432686}
+  - 114: {fileID: 11424870}
   m_Layer: 0
   m_Name: Scientist
   m_TagString: Person
@@ -873,6 +874,18 @@ MonoBehaviour:
   standVsMeanderPercent: .5
   minDelayTime: 1
   maxDelayTime: 2
+--- !u!114 &11424870
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 163392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05a4b5f68fb33354eb1097a19d62732e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selectorPrefab: {fileID: 127448, guid: df2093b70186f384686a8709f7a2796a, type: 2}
 --- !u!114 &11432686
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -887,6 +900,7 @@ MonoBehaviour:
   maxHealth: 100
   health: 0
   corpseThickness: .200000003
+  lifeSupportEffectRate: 5
 --- !u!114 &11479922
 MonoBehaviour:
   m_ObjectHideFlags: 1

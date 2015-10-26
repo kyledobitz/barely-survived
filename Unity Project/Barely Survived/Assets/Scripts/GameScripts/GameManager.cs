@@ -90,6 +90,8 @@ public class GameManager : MonoBehaviour {
 	void Update () {
         CheckPhaseTransitions();
         ImplementPhase();
+        if (Input.GetMouseButtonDown(1)) //Cancel selection with right click
+            selected = null;
 	}
 
     void TrimDeadPeople(){
