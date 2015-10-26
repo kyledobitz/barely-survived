@@ -17,6 +17,7 @@ public class ShipMetrics : MonoBehaviour {
     public float lifeSupport{ get{ return lifeSupportEngine.lifeSupport; } }
 
     public float fuelRate{ get{ return fuelEngine.fuelRate; } }
+    public float distanceTraveled{ get{ return fuelEngine.distanceTraveled; } }
     public float foodRate{ get{ return foodEngine.foodRate; } }
     public float lifeSupportRate{ get{ return lifeSupportEngine.lifeSupportRate; } }
 

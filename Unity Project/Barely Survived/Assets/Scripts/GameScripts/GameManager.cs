@@ -13,7 +13,6 @@ public class GameManager : MonoBehaviour {
     public List<Assigner> assigners;
     public List<Selector> selectors;
 
-
     public GameObject selected;
 
     private GameObject _gameplay;
