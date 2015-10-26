@@ -19,7 +19,8 @@
 			<ShortName>Test</ShortName>
 			<Path>Test.bnk</Path>
 			<IncludedEvents>
-				<Event Id="1652966903" Name="death_scream"/>
+				<Event Id="2862969430" Name="engine_start"/>
+				<Event Id="3509916502" Name="engine_stop" MaxAttenuation="0.000000"/>
 				<Event Id="2932040671" Name="play_music"/>
 				<Event Id="2370690330" Name="stop_title"/>
 			</IncludedEvents>
@@ -32,9 +33,25 @@
 					<ShortName>Segment B.wav</ShortName>
 					<Path>SFX\Segment B_4B8CC0C5.wem</Path>
 				</File>
+				<File Id="403669993" Language="SFX">
+					<ShortName>engine high.wav</ShortName>
+					<Path>SFX\engine high_4B8CC0C5.wem</Path>
+				</File>
 				<File Id="534288695" Language="SFX">
 					<ShortName>Segment A.wav</ShortName>
 					<Path>SFX\Segment A_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="590484245" Language="SFX">
+					<ShortName>engine hypers.wav</ShortName>
+					<Path>SFX\engine hypers_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="627696508" Language="SFX">
+					<ShortName>engine low.wav</ShortName>
+					<Path>SFX\engine low_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="645097301" Language="SFX">
+					<ShortName>engine med.wav</ShortName>
+					<Path>SFX\engine med_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="709327519" Language="SFX">
 					<ShortName>Space MainTheme.wav</ShortName>
@@ -44,9 +61,17 @@
 					<ShortName>Segment D.wav</ShortName>
 					<Path>SFX\Segment D_4B8CC0C5.wem</Path>
 				</File>
+				<File Id="771419035" Language="SFX">
+					<ShortName>engine rumble.wav</ShortName>
+					<Path>SFX\engine rumble_4B8CC0C5.wem</Path>
+				</File>
 				<File Id="885815032" Language="SFX">
 					<ShortName>Danger Segment.wav</ShortName>
 					<Path>SFX\Danger Segment_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="903352726" Language="SFX">
+					<ShortName>engine hyper loop clean.wav</ShortName>
+					<Path>SFX\engine hyper loop clean_4B8CC0C5.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

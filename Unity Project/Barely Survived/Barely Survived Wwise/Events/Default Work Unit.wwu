@@ -3,17 +3,6 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{9C334088-B4A3-4802-A380-B05BD83FF266}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="death_scream" ID="{5DF6DEAE-3570-4189-8EA4-F78F3CD759BB}">
-					<ChildrenList>
-						<Action Name="Play" ID="{40509D72-DC2B-48FF-A592-6D7240F225F1}" ShortID="1054083856" Type="Play" Scope="One" Global="false">
-							<ElementList>
-								<Element ID="{68C2F21D-BBE3-4184-B821-9910C52B929C}" Global="false">
-									<ObjectRef Name="Death Scream" ID="{137ED2AF-A6CA-4FBA-A08A-2069D1A15F97}" WorkUnitID="{EB400B2F-90AB-48D2-9CFE-3E5FFEDA3A1C}"/>
-								</Element>
-							</ElementList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="play_music" ID="{E221731A-7D8D-4AFD-B166-9804166556B0}">
 					<ChildrenList>
 						<Action Name="Play" ID="{A88CED24-B163-41E5-B8CE-F749F73CAEA7}" ShortID="555234309" Type="Play" Scope="One" Global="false">
@@ -42,6 +31,28 @@
 							<ElementList>
 								<Element ID="{C554DA2F-1CEE-4BAC-8B68-91D9C7C91938}" Global="false">
 									<ObjectRef Name="Music Master" ID="{97B2CC5F-DD67-4BD7-BDA4-5A1161C0DF9B}" WorkUnitID="{27BFFBB2-EA82-44B7-A6CA-BD161AC0FA24}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="engine_start" ID="{BD88177B-BFF6-4D72-AEDA-62882E297E3F}">
+					<ChildrenList>
+						<Action Name="Play" ID="{50C046E0-CA78-4985-8EDD-4BDE262588EB}" ShortID="1054686735" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{61A206F3-1CFE-43F3-A63C-D5985D0388CB}" Global="false">
+									<ObjectRef Name="Engine Speed" ID="{CB6B1587-D72F-4CEE-BE48-3AB6BF17BFD4}" WorkUnitID="{EB400B2F-90AB-48D2-9CFE-3E5FFEDA3A1C}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="engine_stop" ID="{1C2D472C-68BD-4331-B37E-D3B52409616C}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{3CFBA0D4-2010-4773-B9A0-88BEFA5B4C01}" ShortID="1037100822" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{E1FFE911-76AE-4F65-B0E9-719E05915F48}" Global="false">
+									<ObjectRef Name="Engine Speed" ID="{CB6B1587-D72F-4CEE-BE48-3AB6BF17BFD4}" WorkUnitID="{EB400B2F-90AB-48D2-9CFE-3E5FFEDA3A1C}"/>
 								</Element>
 							</ElementList>
 						</Action>
