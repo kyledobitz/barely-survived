@@ -13,7 +13,8 @@ namespace AK
 {
     namespace EVENTS
     {
-        static const AkUniqueID DEATH_SCREAM = 1652966903U;
+        static const AkUniqueID ENGINE_START = 2862969430U;
+        static const AkUniqueID ENGINE_STOP = 3509916502U;
         static const AkUniqueID PLAY_MUSIC = 2932040671U;
         static const AkUniqueID STOP_TITLE = 2370690330U;
     } // namespace EVENTS
