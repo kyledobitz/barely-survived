@@ -13,6 +13,7 @@ public class GameManager : MonoBehaviour {
     public List<Assigner> assigners;
     public List<Selector> selectors;
 
+
     public GameObject selected;
 
     private GameObject _gameplay;
@@ -24,6 +25,7 @@ public class GameManager : MonoBehaviour {
     private float _logoEndTime;
     public float creditsTime = 2.0f;
     private float _creditsEndTime;
+    private Spawner _spawner;
 
 	// Use this for initialization
 	void Start () {
@@ -31,6 +33,7 @@ public class GameManager : MonoBehaviour {
         livingPeople = new List<GameObject>(GameObject.FindGameObjectsWithTag("Person"));
         gardenRooms = new List<GardenRoom>(FindObjectsOfType<GardenRoom>());
         lifeSupportRooms = new List<LifeSupportRoom>(FindObjectsOfType<LifeSupportRoom>());
+         _spawner = GetComponent<Spawner>();
 
         assigners = new List<Assigner>(FindObjectsOfType<Assigner>());
         selectors = new List<Selector>(FindObjectsOfType<Selector>());
@@ -42,6 +45,7 @@ public class GameManager : MonoBehaviour {
         _logoEndTime = Time.time + logoTime;
         Debug.Log("logoEndTime: " + _logoEndTime);
 	}
+
     public void CheckPhaseTransitions(){
         switch (phase){
             case Phase.LOGO :
