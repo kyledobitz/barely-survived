@@ -280,6 +280,7 @@ GameObject:
   - 4: {fileID: 406216}
   - 114: {fileID: 11426680}
   - 114: {fileID: 11451462}
+  - 114: {fileID: 11407552}
   m_Layer: 0
   m_Name: Soldier
   m_TagString: Person
@@ -858,6 +859,18 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &11407552
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 182354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05a4b5f68fb33354eb1097a19d62732e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selectorPrefab: {fileID: 142128, guid: 2bb266bda168f22459c71949c350d6ba, type: 2}
 --- !u!114 &11409448
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -901,6 +914,7 @@ MonoBehaviour:
   maxHealth: 100
   health: 0
   corpseThickness: .200000003
+  lifeSupportEffectRate: 5
 --- !u!114 &11472670
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -10,6 +10,7 @@ TagManager:
   - Gameplay
   - Logo
   - Credits
+  - GUI
   layers:
   - Default
   - TransparentFX

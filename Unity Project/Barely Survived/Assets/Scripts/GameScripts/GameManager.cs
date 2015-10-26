@@ -34,7 +34,7 @@ public class GameManager : MonoBehaviour {
 
         assigners = new List<Assigner>(FindObjectsOfType<Assigner>());
         selectors = new List<Selector>(FindObjectsOfType<Selector>());
-
+        
         _gameplay = GameObject.FindGameObjectWithTag("Gameplay");
         _logo = GameObject.FindGameObjectWithTag("Logo");
         _credits = GameObject.FindGameObjectWithTag("Credits");
@@ -90,6 +90,8 @@ public class GameManager : MonoBehaviour {
 	void Update () {
         CheckPhaseTransitions();
         ImplementPhase();
+        if (Input.GetMouseButtonDown(1)) //Cancel selection with right click
+            selected = null;
 	}
 
     void TrimDeadPeople(){
