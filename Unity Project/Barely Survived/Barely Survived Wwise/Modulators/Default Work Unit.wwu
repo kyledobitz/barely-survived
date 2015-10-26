@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{7F1CEE93-B159-4DC6-B4C3-328AE1B14FD4}" SchemaVersion="70">
 	<Modulators>
-		<WorkUnit Name="Default Work Unit" ID="{7F1CEE93-B159-4DC6-B4C3-328AE1B14FD4}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{7F1CEE93-B159-4DC6-B4C3-328AE1B14FD4}" PersistMode="Standalone">
+			<ChildrenList>
+				<ModulatorEnvelope Name="Speed" ID="{91AC0367-3F74-410E-97FB-5D40AC7F5CC7}" ShortID="838160598"/>
+			</ChildrenList>
+		</WorkUnit>
 	</Modulators>
 </WwiseDocument>
